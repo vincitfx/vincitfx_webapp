@@ -1,34 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState, useEffect } from 'react';
-
+import Header from './Pages/Header';
+import SignUpPage from './Pages/SignUpPage';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
-  useEffect(() => {
-    fetch('https://localhost:5001/weatherforecast')
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        console.log(data);
-      });
-  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> Anish save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Router basename="/vincitfx_webapp">
+          <Routes>
+            <Route exact path="" element={<Header />} />
+            <Route path="signup" element={<SignUpPage />} ></Route>
+          </Routes>
+      </Router>
     </div>
+
   );
 }
 

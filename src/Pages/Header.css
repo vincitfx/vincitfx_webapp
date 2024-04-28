@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+.main-container {
+    display: block;
+    width: 100%;
+    border-color: black;
+    border-width: 2px;
+}
+
+.logo-icon {
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    width: 60px;
+}
+
+.logo-name {
+    position: absolute;
+    font-weight: bold;
+    font-size: 31px;
+    left: 226px;
+    top: 39px;
+    color: #494747;
+}
+
+.signup-btn {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.login-btn {
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
