@@ -40,26 +40,26 @@ function Header() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <NavDropdown title="Company" id="collapsible-nav-dropdown" style={{marginRight:"40px",fontWeight:"bold", fontSize:"18px"}}>
-                                <NavDropdown.Item href="#action/3.1" style={{fontWeight:"bold", fontSize:"18px"}}>
+                            <NavDropdown title="Company" className='menu-items' id="collapsible-nav-dropdown" style={{marginRight:"80px",fontWeight:"bold", fontSize:"18px"}}>
+                                <NavDropdown.Item className='menu-items' href="#action/3.1" style={{fontWeight:"bold", fontSize:"18px"}}>
                                     About VincitFX
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2" style={{fontWeight:"bold", fontSize:"18px"}}>
+                                <NavDropdown.Item className='menu-items' href="#action/3.2" style={{fontWeight:"bold", fontSize:"18px"}}>
                                     FAQs
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3" style={{fontWeight:"bold", fontSize:"18px"}}>
+                                <NavDropdown.Item className='menu-items' href="#action/3.3" style={{fontWeight:"bold", fontSize:"18px"}}>
                                     Contact Us
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Trading" id="collapsible-nav-dropdown" style={{marginRight:"40px",fontWeight:"bold", fontSize:"18px"}}>
-                                <NavDropdown.Item href="#action/3.1" style={{fontWeight:"bold", fontSize:"18px"}}>
+                            <NavDropdown title="Trading" className='menu-items' id="collapsible-nav-dropdown" style={{marginRight:"80px",fontWeight:"bold", fontSize:"18px"}}>
+                                <NavDropdown.Item className='menu-items' href="#action/3.1" style={{fontWeight:"bold", fontSize:"18px"}}>
                                     Account Types
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="vincitfx_webapp/signup" style={{marginRight:"40px",fontWeight:"bold", fontSize:"18px"}}>Funding</Nav.Link>
+                            <Nav.Link href="vincitfx_webapp/signup" className='menu-items' style={{marginRight:"80px",fontWeight:"bold", fontSize:"18px"}}>Funding</Nav.Link>
 
-                            <NavDropdown title="Promotions" id="collapsible-nav-dropdown" style={{marginRight:"40px",fontWeight:"bold", fontSize:"18px"}}>
-                                <NavDropdown.Item href="#action/3.1" style={{fontWeight:"bold", fontSize:"18px"}}>
+                            <NavDropdown title="Promotions" className='menu-items' id="collapsible-nav-dropdown" style={{marginRight:"80px",fontWeight:"bold", fontSize:"18px"}}>
+                                <NavDropdown.Item className='menu-items' href="#action/3.1" style={{fontWeight:"bold", fontSize:"18px"}}>
                                     100% Credit Bonus
                                 </NavDropdown.Item>
                             </NavDropdown>
