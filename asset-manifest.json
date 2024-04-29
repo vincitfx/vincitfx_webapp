@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vincitfx_webapp/static/css/main.8f081b31.css",
+    "main.css": "/vincitfx_webapp/static/css/main.76519093.css",
     "main.js": "/vincitfx_webapp/static/js/main.3f3a7b85.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/logo.png": "/vincitfx_webapp/static/media/logo.901fe6d116e9807a3be8.png",
     "index.html": "/vincitfx_webapp/index.html",
-    "main.8f081b31.css.map": "/vincitfx_webapp/static/css/main.8f081b31.css.map",
+    "main.76519093.css.map": "/vincitfx_webapp/static/css/main.76519093.css.map",
     "main.3f3a7b85.js.map": "/vincitfx_webapp/static/js/main.3f3a7b85.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f081b31.css",
+    "static/css/main.76519093.css",
     "static/js/main.3f3a7b85.js"
   ]
 }
