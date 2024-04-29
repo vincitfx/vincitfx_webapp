@@ -7,14 +7,15 @@
 .main-container {
     display: block;
     width: 100%;
-    border-color: black;
-    border-width: 2px;
+    height: 90px;
+    border: 1px solid #D7D7D7;
+    border-top: 1px;
 }
 
 .logo-icon {
     position: absolute;
     top: 20px;
-    left: 160px;
+    left: 220px;
     width: 60px;
 }
 
@@ -22,19 +23,123 @@
     position: absolute;
     font-weight: bold;
     font-size: 31px;
-    left: 226px;
+    left: 286px;
     top: 39px;
     color: #494747;
 }
 
 .signup-btn {
     position: absolute;
-    right: 200px;
-    top: 50px;
+    right: 392px;
+    top: 39px;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #49BEB7;
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
 
 .login-btn {
     position: absolute;
-    right: 150px;
-    top: 50px;
+    right: 220px;
+    top: 39px;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #FF914D;
+    border: none;
+    border-radius: 8px;
+}
+
+.signup-btn:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.login-btn:hover {
+    border: 1px solid white;
+}
+
+.bg-body-tertiary {
+    background-color: white !important;
+}
+
+.me-auto {
+    position: absolute;
+    left: 590px;
+    top : 40px;
+    font-weight: 400px;
+}
+
+#logo-icon-error {
+    display: none;
+}
+
+#logo-name-error {
+    display: none;
+}
+
+#error-message {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-container {
+        border: none;
+    }
+
+    .logo-icon {
+        position: absolute;
+        top: 23px;
+        left: 95px;
+        width: 40px;
+    }
+
+    .logo-name {
+        display: none;
+    }
+
+    .me-auto {
+        position: absolute;
+        left: 20px;
+        top : 50px
+    }
+
+    div.container {
+        padding-top: 15px;
+    }
+
+    .login-btn {
+        position: absolute;
+        right: 15px;
+        top: 28px;
+        width: 100px;
+        height: 31px;
+        font-size: 15px;
+        background-color: #FF914D;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        left: 15px;
+        top : 27px;
+        padding : 0px 0px;
+    }
+
+    .signup-btn {
+        position: absolute;
+        right: 122px;
+        top: 28px;
+        width: 100px;
+        height: 31px;
+        font-size: 15px;
+        background-color: #49BEB7;
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+
 }
