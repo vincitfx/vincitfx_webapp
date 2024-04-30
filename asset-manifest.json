@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/vincitfx_webapp/static/css/main.c330d03f.css",
-    "main.js": "/vincitfx_webapp/static/js/main.74e10582.js",
+    "main.css": "/vincitfx_webapp/static/css/main.b9010391.css",
+    "main.js": "/vincitfx_webapp/static/js/main.ba5008d3.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/logo.png": "/vincitfx_webapp/static/media/logo.901fe6d116e9807a3be8.png",
+    "static/media/instagram.svg": "/vincitfx_webapp/static/media/instagram.c762d037527775c8fc6f79a116fcf468.svg",
+    "static/media/phonenumber.svg": "/vincitfx_webapp/static/media/phonenumber.c6126d77622cc88b9ce36ebf42dc120e.svg",
+    "static/media/linkedin.svg": "/vincitfx_webapp/static/media/linkedin.c491ac3694538f82989621c33b758aa3.svg",
+    "static/media/youtube.svg": "/vincitfx_webapp/static/media/youtube.5ed58ac71a6e64174283d05b690ac255.svg",
     "index.html": "/vincitfx_webapp/index.html",
-    "main.c330d03f.css.map": "/vincitfx_webapp/static/css/main.c330d03f.css.map",
-    "main.74e10582.js.map": "/vincitfx_webapp/static/js/main.74e10582.js.map",
+    "static/media/email.svg": "/vincitfx_webapp/static/media/email.88f84000963502c73891629de55a62de.svg",
+    "static/media/facebook.svg": "/vincitfx_webapp/static/media/facebook.d25814dea393ca3a592ee982fb8258c4.svg",
+    "static/media/address.svg": "/vincitfx_webapp/static/media/address.5771f3a481d238fedc802998463915d1.svg",
+    "static/media/twitter.svg": "/vincitfx_webapp/static/media/twitter.0c34b60120106d486baacdac16ba6a21.svg",
+    "main.b9010391.css.map": "/vincitfx_webapp/static/css/main.b9010391.css.map",
+    "main.ba5008d3.js.map": "/vincitfx_webapp/static/js/main.ba5008d3.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c330d03f.css",
-    "static/js/main.74e10582.js"
+    "static/css/main.b9010391.css",
+    "static/js/main.ba5008d3.js"
   ]
 }
