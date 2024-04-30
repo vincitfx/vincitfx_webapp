@@ -3,7 +3,7 @@
 function SignUpPage()
 {
     return(
-        <p>Anish</p>
+        <p>SignUpPage</p>
     )
 }
 

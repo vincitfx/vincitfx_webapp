@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 567px;
+    border-top: 2px solid black;
+}
+
+.logo-icon-2 {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    width: 60px;
+}
+
+.logo-name-2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 31px;
+    color: #494747;
+    left: 286px;
+    top: 39px;
+}
+
+.contactus-text {
+    position: absolute;
+    left: 220px;
+    top: 100px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.phonenumber-icon {
+    position: absolute;
+    left: 215px;  
+    top: 152px;
+}
+
+.email-icon {
+    position: absolute;
+    left: 220px;  
+    top: 210px;
+}
+
+.address-icon {
+    position: absolute;
+    left: 220px;  
+    top: 270px;
+}
+
+.phonenumber-text {
+    position: absolute;
+    left: 277px;  
+    top: 159px;
+}
+
+.email-text{
+    position: absolute;
+    left: 277px;  
+    top: 213px; 
+}
+
+.address-text{
+    position: absolute;
+    left: 277px;  
+    top: 260px; 
+}
+
+.followus-text  {
+    position: absolute;
+    left: 220px;
+    top: 350px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.facebook-icon {
+    position: absolute;
+    left: 220px; 
+    top : 405px;
+}
+
+.instagram-icon {
+    position: absolute;
+    left: 300px; 
+    top : 405px;
+}
+
+.linkedin-icon {
+    position: absolute;
+    left: 380px; 
+    top : 405px;
+}
+
+.twitter-icon {
+    position: absolute;
+    left: 460px; 
+    top : 405px;
+}
+
+.youtube-icon {
+    position: absolute;
+    left: 540px; 
+    top : 405px;
+}
+
+.brand-desc {
+    position: absolute;
+    right: 220px;
+    top: 112px;
+    font-size: 15px;
+}
+
+.policy-container {
+    width: 100%;
+    height: 100px;
+    background-color: #49BEB7;
+    position: absolute;
+    top: 465px;
+}
+
+.policy-1 {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+#pol-8 {
+    position: absolute;
+    top : 72px;
+    right : 30px
+}
+
+#pol-6 {
+    position: absolute;
+    top : 44px;
+    left : 30px
+}
+
+#pol-7 {
+    position: absolute;
+    top: 44px;
+    left : 404px;
+}
+
+#pol-1 {
+    position: absolute;
+    top: 12px;
+    left : 30px;
+}
+
+#pol-2 {
+    position: absolute;
+    top: 12px;
+    left : 196px;
+}
+
+#pol-3 {
+    position: absolute;
+    top: 12px;
+    left : 371px;
+}
+
+#pol-4 {
+    position: absolute;
+    top: 12px;
+    left : 561px;
+}
+
+#pol-5 {
+    position: absolute;
+    top: 12px;
+    left : 723px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .policy-container {
+        width: 100%;
+        height: 118px;
+        background-color: #49BEB7;
+        position: absolute;
+        top: 855px;
+    }
+
+    .policy-1 {
+        color: #000;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    #pol-8 {
+        position: absolute;
+        top : 92px;
+        right : 70px
+    }
+    
+    #pol-6 {
+        position: absolute;
+        top : 52px;
+        left : 92px
+    }
+    
+    #pol-7 {
+        position: absolute;
+        top: 72px;
+        left : 94px;
+    }
+    
+    #pol-1 {
+        position: absolute;
+        top: 12px;
+        left : 15px;
+    }
+    
+    #pol-2 {
+        position: absolute;
+        top: 12px;
+        left : 130px;
+    }
+    
+    #pol-3 {
+        position: absolute;
+        top: 12px;
+        left : 242px;
+    }
+    
+    #pol-4 {
+        position: absolute;
+        top: 32px;
+        left : 74px;
+    }
+    
+    #pol-5 {
+        position: absolute;
+        top: 32px;
+        left : 198px;
+    }
+
+    .logo-icon-2 {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        width: 40px;
+    }
+
+    .logo-name-2 {
+        position: absolute;
+        font-weight: bold;
+        font-size: 22px;
+        color: #494747;
+        left: 55px;
+        top: 28px;
+    }
+
+    .contactus-text {
+        position: absolute;
+        left: 20px;
+        top: 75px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .phonenumber-icon {
+        position: absolute;
+        left: 17px;  
+        top: 124px;
+        width: 35px;
+    }
+    
+    .email-icon {
+        position: absolute;
+        left: 22px;  
+        top: 175px;
+        width: 27px;
+    }
+    
+    .address-icon {
+        position: absolute;
+        left: 22px;  
+        top: 228px;
+        width: 27px;
+    }
+
+    .phonenumber-text {
+        position: absolute;
+        left: 77px;  
+        top: 124px;
+    }
+    
+    .email-text{
+        position: absolute;
+        left: 82px;  
+        top: 175px; 
+    }
+    
+    .address-text{
+        position: absolute;
+        left: 82px;  
+        top: 228px; 
+    }
+
+    .followus-text  {
+        position: absolute;
+        left: 20px;
+        top: 330px;
+        font-size: 22px;
+        font-weight: bold;
+    
+    }
+
+    .facebook-icon {
+        position: absolute;
+        left: 20px; 
+        top : 380px;
+        width: 35px;
+    }
+    
+    .instagram-icon {
+        position: absolute;
+        left: 80px; 
+        top : 380px;
+        width: 35px;
+    }
+    
+    .linkedin-icon {
+        position: absolute;
+        left: 140px; 
+        top : 380px;
+        width: 35px;
+    }
+    
+    .twitter-icon {
+        position: absolute;
+        left: 200px; 
+        top : 380px;
+        width: 35px;
+    }
+    
+    .youtube-icon {
+        position: absolute;
+        left: 260px; 
+        top : 380px;
+        width: 37px;
+    }
+
+    .brand-desc {
+        position: absolute;
+        top: 440px;
+        left: 10px;
+        right: 10px;
+        width: 95%;
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #F5F5F5;
+    }
+}
+
+

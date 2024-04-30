@@ -8,8 +8,7 @@
     display: block;
     width: 100%;
     height: 90px;
-    border: 1px solid #D7D7D7;
-    border-top: 1px;
+    border-bottom: 1px solid #D7D7D7;
 }
 
 .logo-icon {
@@ -72,18 +71,6 @@
     font-weight: 400px;
 }
 
-#logo-icon-error {
-    display: none;
-}
-
-#logo-name-error {
-    display: none;
-}
-
-#error-message {
-    display: none;
-}
-
 @media only screen and (max-width: 800px) {
     .main-container {
         display: block;
@@ -106,7 +93,7 @@
     .me-auto.navbar-nav {
         position: absolute;
         left: 24px;
-        top : 87px
+        top : 87px;
     }
 
     div.container {
