@@ -1,4 +1,5 @@
-import Header from "./Header"
+import Header from "./Header";
+import Footer from "./Footer"
 
 function AboutVincitFXPage()
 {
@@ -6,6 +7,7 @@ function AboutVincitFXPage()
         <div>
             <Header></Header>
             <p>AboutVincitFXPage</p>
+            <Footer></Footer>
         </div>
 
     )

@@ -5,11 +5,11 @@
 }
 
 .footer-container {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     width: 100%;
-    height: 567px;
-    border-top: 2px solid black;
+    height: auto;
+    border-top: 2px solid rgb(184, 181, 181);
 }
 
 .logo-icon-2 {
@@ -32,7 +32,7 @@
     position: absolute;
     left: 220px;
     top: 100px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -40,18 +40,21 @@
     position: absolute;
     left: 215px;  
     top: 152px;
+    width: 35px;
 }
 
 .email-icon {
     position: absolute;
     left: 220px;  
     top: 210px;
+    width: 26px;
 }
 
 .address-icon {
     position: absolute;
     left: 220px;  
     top: 270px;
+    width: 26px;
 }
 
 .phonenumber-text {
@@ -76,7 +79,7 @@
     position: absolute;
     left: 220px;
     top: 350px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
 
 }
@@ -85,30 +88,55 @@
     position: absolute;
     left: 220px; 
     top : 405px;
+    width: 40px;
+}
+
+.facebook-icon:hover {
+    opacity: 50%;
 }
 
 .instagram-icon {
     position: absolute;
     left: 300px; 
     top : 405px;
+    width: 40px;
+}
+
+.instagram-icon:hover {
+    opacity: 50%;
 }
 
 .linkedin-icon {
     position: absolute;
     left: 380px; 
     top : 405px;
+    width: 40px;
+}
+
+.linkedin-icon:hover {
+    opacity: 50%;
 }
 
 .twitter-icon {
     position: absolute;
     left: 460px; 
     top : 405px;
+    width: 40px;
+}
+
+.twitter-icon:hover {
+    opacity: 50%;
 }
 
 .youtube-icon {
     position: absolute;
     left: 540px; 
     top : 405px;
+    width: 40px;
+}
+
+.youtube-icon:hover {
+    opacity: 50%;
 }
 
 .brand-desc {
@@ -123,7 +151,7 @@
     height: 100px;
     background-color: #49BEB7;
     position: absolute;
-    top: 465px;
+    top: 480px;
 }
 
 .policy-1 {

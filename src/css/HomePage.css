@@ -1,0 +1,347 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    color : black
+}
+
+.homepage-container {
+    width: 100%;
+}
+
+.main-app-div {
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    left : 0px;
+    right: 0px;
+    background-color: #F5F5F5;
+}
+
+.app-div {
+    width: 70%;
+    height: 460px;
+    position: absolute;
+    top : 60px;
+    left: 220px;
+    background-color: #49BEB7;
+    border-radius: 50px;
+}
+
+.text-1 {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.app-name {
+    position: absolute;
+    top: 75px;
+    left: 60px;
+    font-size: 60px;
+    font-weight:900;
+}
+
+.text-2 {
+    position: absolute;
+    top: 176px;
+    left: 60px; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.androidappimg {
+    position: absolute;
+    top: 28px;
+    right: 37px;
+    width: 746px;
+    border-radius: 53px;
+}
+
+.applebuton {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.applebuton:hover {
+    opacity: 80%;
+}
+
+.googlebutton {
+    position: absolute;
+    bottom: 61px;
+    left: 259px;
+}
+
+.googlebutton:hover {
+    opacity: 80%;
+}
+
+.instrument-div {
+    width: 72%;
+    height: 670px;
+    position: absolute;
+    top : 580px;
+    left: 220px;
+    border-radius: 50px;
+}
+
+.text-3 {
+    position: absolute;
+    top: 50px;
+    right: 212px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-4 {
+    position: absolute;
+    top: 130px;
+    right: 30px;
+    font-size: 21px;
+}
+
+.text-5 {
+    position: absolute;
+    top: 224px;
+    right: 278px;
+    font-size: 21px;
+}
+
+.instrumentimg {
+    width: 50%;
+}
+
+.text-6 {
+    position: absolute;
+    top: 286px;
+    right: 287px;
+    font-size: 21px;
+}
+
+.text-7 {
+    position: absolute;
+    top: 341px;
+    right: 343px;
+    font-size: 21px;
+}
+
+.text-8 {
+    position: absolute;
+    top: 404px;
+    right: 259px;
+    font-size: 21px;
+}
+
+.text-9 {
+    position: absolute;
+    top: 465px;
+    right: 355px;
+    font-size: 21px;
+}
+
+.tickimg-1 {
+    position: absolute;
+    right: 530px;
+    top : 286px;
+    width : 25px
+
+}
+
+.tickimg-2 {
+    position: absolute;
+    right: 530px;   
+    top: 341px;
+    width : 25px
+}
+
+.tickimg-3 {
+    position: absolute;
+    right: 530px; 
+    top: 404px;
+    width : 25px
+}
+
+.tickimg-4 {
+    position: absolute;
+    right: 530px;
+    top: 465px;
+    width : 25px
+}
+
+.joinnow-btn {
+    position: absolute;
+    right: 370px;
+    top: 524px;
+    width: 178px;
+    height: 47px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #FF914D;
+    border: none;
+    border-radius: 8px;
+}
+
+.joinnow-btn:hover {
+    border: 2px solid #F5F5F5;
+} 
+
+@media only screen and (max-width: 800px) {
+
+    .app-div {
+        width: 100%;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #49BEB7;
+        border-radius: 0px;
+    }
+
+    .androidappimg {
+        position: absolute;
+        top: 2px;
+        left: 3%;
+        right: 3%;
+        width: 94%;
+        max-height: 300px;
+        border-radius: 26px;
+    }
+
+    .text-1 {
+        position: absolute;
+        top: 230px;
+        left: 46px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .app-name {
+        position: absolute;
+        top: 253px;
+        left: 79px;
+        font-size: 30px;
+        font-weight:900;
+        color: black;
+    }
+    
+    .text-2 {
+        position: absolute;
+        top: 300px;
+        left: 34px; 
+        color: white;
+        font-size: 15px;
+    }
+
+    .applebuton {
+        position: absolute;
+        bottom: 2px;
+        left: 36px;
+        width: 150px;
+    }
+
+    .googlebutton {
+        position: absolute;
+        bottom: 2px;
+        left: 193px;
+        width: 150px;
+    }
+    
+    .instrument-div {
+        width: 100%;
+        height: 870px;
+        position: absolute;
+        top : 480px;
+        left: 0px;
+        border-radius: 50px;
+    }
+
+    .text-3 {
+        position: absolute;
+        top: 36px;
+        right: 109px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .text-4 {
+        position: absolute;
+        top: 100px;
+        right: auto;
+        left: 4px;
+        font-size: 15px;
+    }
+
+    .text-5 {
+        position: absolute;
+        top: 169px;
+        right: auto;
+        left: 4px;
+        font-size: 15px;
+    }
+
+    .text-6 {
+        position: absolute;
+        top: 212px;
+        left: 30px;
+        right: auto;
+        font-size: 15px;
+    }
+    
+    .text-7 {
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        right: auto;
+        font-size: 15px;
+    }
+    
+    .text-8 {
+        position: absolute;
+        top: 288px;
+        left: 30px;
+        right: auto;
+        font-size: 15px;
+    }
+    
+    .text-9 {
+        position: absolute;
+        top: 326px;
+        left: 30px;
+        right: auto;
+        font-size: 15px;
+    }
+
+    .instrumentimg {
+        position: absolute;
+        top: 430px;
+        left: 3%;
+        right: 3%;
+        width: 94%;
+    }
+
+    .joinnow-btn {
+        position: absolute;
+        right: auto;
+        left: 3%;
+        top: 364px;
+        width: 94%;
+        height: 47px;
+        font-size: 22px;
+        font-weight: bold;
+        background-color: #FF914D;
+        border: none;
+        border-radius: 8px;
+    }
+
+}
+
+
+

@@ -8,7 +8,7 @@
     display: block;
     width: 100%;
     height: 90px;
-    border-bottom: 1px solid #D7D7D7;
+    border-bottom: 2px solid rgb(184, 181, 181);
 }
 
 .logo-icon {
@@ -76,7 +76,8 @@
         display: block;
         width: 100%;
         height: 72px;
-        border-bottom: 1px solid #D7D7D7;
+        border-bottom: 2px solid rgb(184, 181, 181);
+        z-index: 2;
     }
 
     .logo-icon {
@@ -92,8 +93,11 @@
 
     .me-auto.navbar-nav {
         position: absolute;
-        left: 24px;
-        top : 87px;
+        left: 0px;
+        top : 73px;
+        background-color: #F5F5F5;
+        padding-left: 20px;
+        z-index: 10;
     }
 
     div.container {

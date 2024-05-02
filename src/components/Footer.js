@@ -38,7 +38,7 @@ function Footer()
             <img src={facebook} className='facebook-icon' alt="followus"></img>
             <img src={instagram} className='instagram-icon' alt="followus"></img>
             <img src={linkedin} className='linkedin-icon' alt="followus"></img>
-            <img src={twitter} className='twitter-icon' alt="followus"></img>
+            <a href='https://twitter.com/VincitFX' target='_blank'><img src={twitter} className='twitter-icon' alt="followus"></img></a>
             <img src={youtube} className='youtube-icon' alt="followus"></img>
             <p className='brand-desc'>
                 VincitFX is a brand name of Vincit Markets (Mauritius), VincitFX (St. Vincent and The <br></br>
