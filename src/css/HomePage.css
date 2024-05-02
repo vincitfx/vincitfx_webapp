@@ -216,7 +216,7 @@
 
     .text-1 {
         position: absolute;
-        top: 230px;
+        top: 210px;
         left: 46px;
         color: white;
         font-size: 18px;
@@ -225,7 +225,7 @@
 
     .app-name {
         position: absolute;
-        top: 253px;
+        top: 233px;
         left: 79px;
         font-size: 30px;
         font-weight:900;
@@ -234,7 +234,7 @@
     
     .text-2 {
         position: absolute;
-        top: 300px;
+        top: 280px;
         left: 34px; 
         color: white;
         font-size: 15px;
@@ -242,14 +242,14 @@
 
     .applebuton {
         position: absolute;
-        bottom: 2px;
+        bottom: 12px;
         left: 36px;
         width: 150px;
     }
 
     .googlebutton {
         position: absolute;
-        bottom: 2px;
+        bottom: 12px;
         left: 193px;
         width: 150px;
     }
