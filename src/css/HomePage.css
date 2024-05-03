@@ -569,10 +569,10 @@
         position: absolute;
         top: 291px;
         left: 5px;
-        filter: brightness(80%);
+        filter: brightness(280%);
         display: block;
-        width: 40px;
-        background-color: white;
+        width: 50px;
+        background-color: black;
         border-radius: 50px;
     }
 
@@ -580,11 +580,11 @@
         position: absolute;
         top: 291px;
         right: 5px;
-        filter: brightness(80%) ;
+        filter: brightness(280%) ;
         display: block;
-        width: 40px;
+        width: 50px;
         transform: scaleX(-1);
-        background-color: white;
+        background-color: black;
         border-radius: 50px;
     }
 
