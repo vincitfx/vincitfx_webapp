@@ -614,8 +614,8 @@
     .textarea-name {
         position: absolute;
         top: 690px;
-        right: 30px;
-        width : 334px;
+        right: 8%;
+        width : 84%;
         height: 50px;
         background-color: #FFFCFC;
         border-radius: 10px;
@@ -627,8 +627,8 @@
     .textarea-phone {
         position: absolute;
         top: 758px;  
-        right: 30px;
-        width : 334px;
+        right: 8%;
+        width : 84%;
         background-color: #FFFCFC;
         border-radius: 10px;
         padding : 10px;
@@ -640,8 +640,8 @@
     .callback-btn {
         position: absolute;
         top: 868px;
-        right: 30px;
-        width: 334px;
+        right: 8%;
+        width : 84%;
         height: 50px;
         color: white;
         background-color: black;
