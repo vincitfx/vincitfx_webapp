@@ -14,6 +14,7 @@ import tradingstepimg from '../images/tradingstepimg.svg'
 import tradingstepimgmobile from '../images/tradingstepimgmobile.svg'
 import callbackimg from '../images/callbackimg.svg'
 
+
 function HomePage()
 {
     useMetaTags(
