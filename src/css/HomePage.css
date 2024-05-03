@@ -1,3 +1,8 @@
+:root {
+    --xCordinate: 6px;
+  }
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,7 +16,7 @@
 
 .main-app-div {
     width: 100%;
-    height: 1300px;
+    height: 3420px;
     position: relative;
     left : 0px;
     right: 0px;
@@ -114,6 +119,8 @@
 }
 
 .instrumentimg {
+    position: absolute;
+    top: 76px;
     width: 50%;
 }
 
@@ -189,9 +196,179 @@
 
 .joinnow-btn:hover {
     border: 2px solid #F5F5F5;
+
 } 
 
+.accounttypes-div {
+    position: absolute;
+    top: 1350px;
+    left: 220px;
+    width: 70%;
+    height: 1110px;
+}
+
+.accounttypesimg {
+    position: absolute;
+    top: 106px;
+    width: 100%;
+}
+
+.trading-btn-1 {
+    position: absolute;
+    left: 381px;
+    bottom: 84px;
+    color: #49BEB7;
+    font-weight: bold;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid #49BEB7;
+}
+
+.trading-btn-1:hover {
+    border: 3px solid #FF914D;
+    color: #FF914D;
+}
+
+.trading-btn-2:hover {
+    border: 3px solid #FF914D;
+    color: #FF914D;
+}
+
+.trading-btn-3:hover {
+    border: 3px solid #FF914D;
+    color: #FF914D;
+}
+
+.trading-btn-4:hover {
+    border: 3px solid #FF914D;
+    color: #FF914D;
+}
+
+.trading-btn-2 {
+    position: absolute;
+    left: 620px;
+    bottom: 84px;
+    color: #49BEB7;
+    font-weight: bold;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid #49BEB7;
+}
+
+.trading-btn-3 {
+    position: absolute;
+    right: 243px;
+    bottom: 84px;
+    color: #49BEB7;
+    font-weight: bold;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid #49BEB7;
+}
+
+.trading-btn-4 {
+    position: absolute;
+    right: 6px;
+    bottom: 84px;
+    color: #49BEB7;
+    font-weight: bold;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid #49BEB7;
+
+}
+
+.leftarrowimg {
+    display: none;
+}
+
+.rightarrowimg {
+    display: none;
+}
+
+.tradingstep-div {
+    position: absolute;
+    top: 2490px;
+    height: 802px;
+    left: 220px;
+    width: 72%;
+}
+
+.tradingstepimg{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+}
+
+.tradingstepimgmobile {
+    display: none;
+}
+
+.callbackimg {
+    position: absolute;
+    top: 510px;
+    width: 100%;
+    height: 400px;
+}
+
+.textarea-name {
+    position: absolute;
+    top: 602px;
+    right: 30px;
+    width : 630px;
+    height: 50px;
+    background-color: #FFFCFC;
+    border-radius: 10px;
+    padding : 10px;
+    border: 1px solid white;
+}
+
+.textarea-phone {
+    position: absolute;
+    top: 670px;  
+    right: 30px;
+    width : 630px;
+    background-color: #FFFCFC;
+    border-radius: 10px;
+    padding : 10px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.callback-btn {
+    position: absolute;
+    top: 780px;
+    right: 30px;
+    width: 630px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.callback-div {
+    display: none;
+}
+
+.accounttypes-p {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 800px) {
+
+    .main-app-div {
+        height: 2994px;
+    }
 
     .app-div {
         width: 100%;
@@ -339,6 +516,173 @@
         background-color: #FF914D;
         border: none;
         border-radius: 8px;
+    }
+
+    .accounttypes-div {
+        position: absolute;
+        top: 1300px;
+        left: 2px;
+        width: 100%;
+        height: 660px;
+    }
+
+    .accounttypesimg {
+        position: absolute;
+        top: 60px;
+        left: var(--xCordinate);
+        width: 780px;
+    }
+    
+    .trading-btn-1 {
+        position: absolute;
+        left: 3%;
+        right: auto;
+        bottom: 21px;
+        font-weight: bold;
+        color: black;
+        width: 94%;
+        height: 47px;
+        border-radius: 5px;
+        border: 3px solid #49BEB7;
+        background-color: #49BEB7;
+    }
+
+    .trading-btn-1:hover {
+        border: 3px solid #FF914D;
+        color: #FF914D;
+    }
+    
+    .trading-btn-2 {
+        display: none;
+    }
+    
+    .trading-btn-3 {
+        display: none;
+    }
+    
+    .trading-btn-4 {
+        display: none;
+    }
+
+    .leftarrowimg {
+        position: absolute;
+        top: 291px;
+        left: 5px;
+        filter: brightness(80%);
+        display: block;
+        width: 40px;
+        background-color: white;
+        border-radius: 50px;
+    }
+
+    .rightarrowimg {
+        position: absolute;
+        top: 291px;
+        right: 5px;
+        filter: brightness(80%) ;
+        display: block;
+        width: 40px;
+        transform: scaleX(-1);
+        background-color: white;
+        border-radius: 50px;
+    }
+
+    .tradingstep-div {
+        width: 100%;
+        position: absolute;
+        top: 2033px;
+        height: 1000px;
+        left: 1%;
+    }
+    
+    .tradingstepimg {
+        display: none;
+    }
+    
+    .tradingstepimgmobile {
+        position: absolute;
+        top: -40px;
+        display: block;
+        width: 98%;
+    }
+
+    .callbackimg {
+        display: none;
+    }
+    
+    .textarea-name {
+        position: absolute;
+        top: 690px;
+        right: 30px;
+        width : 334px;
+        height: 50px;
+        background-color: #FFFCFC;
+        border-radius: 10px;
+        padding : 10px;
+        border: 1px solid white;
+        z-index: 5;
+    }
+    
+    .textarea-phone {
+        position: absolute;
+        top: 758px;  
+        right: 30px;
+        width : 334px;
+        background-color: #FFFCFC;
+        border-radius: 10px;
+        padding : 10px;
+        height: 50px;
+        border: 1px solid white;
+        z-index: 5;
+    }
+    
+    .callback-btn {
+        position: absolute;
+        top: 868px;
+        right: 30px;
+        width: 334px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        z-index: 5;
+    }
+    
+
+    .callback-div {
+        position: absolute;
+        top: 520px;
+        display: block;
+        width: 100%;
+        height: 440px;
+        background-color:#49BEB7 ;
+    }
+
+    .text-10 {
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .text-11 {
+        position: absolute;
+        top: 74px;
+        left: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .accounttypes-p {
+        position: absolute;
+        left: 25%;
+        top: 0px;
+        font-size: 30px;
+        font-weight: bold;
     }
 
 }

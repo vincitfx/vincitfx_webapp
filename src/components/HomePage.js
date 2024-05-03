@@ -8,6 +8,11 @@ import googlebutton from '../images/downloadgoogle.svg'
 import instrumentimg from '../images/instrumentimg.svg'
 import tickimg from '../images/tickimg.svg'
 import { useNavigate } from 'react-router-dom'
+import accounttypesimg from '../images/accounttypesimg.svg' 
+import leftarrowimg from '../images/leftarrowimg.svg'
+import tradingstepimg from '../images/tradingstepimg.svg'
+import tradingstepimgmobile from '../images/tradingstepimgmobile.svg'
+import callbackimg from '../images/callbackimg.svg'
 
 function HomePage()
 {
@@ -25,6 +30,37 @@ function HomePage()
 
       const goToSignUpPage = ()=>{
           navigate('/signup');
+      }
+
+      const moveAccountTypesImgRight = ()=> {
+        var r = document.querySelector(':root');
+        var rs = getComputedStyle(r);
+        var xCordinate = rs.getPropertyValue('--xCordinate');
+        var xCordinateInt = parseInt(xCordinate.substring(0,4));
+        if(xCordinateInt > -408)
+        {
+          xCordinateInt = xCordinateInt - 207;
+          r.style.setProperty('--xCordinate', xCordinateInt + 'px');
+        }
+        else{
+          r.style.setProperty('--xCordinate', -408 + 'px');
+        }
+      }
+
+      const moveAccountTypesImgLeft = () => {
+        var r = document.querySelector(':root');
+        var rs = getComputedStyle(r);
+        var xCordinate = rs.getPropertyValue('--xCordinate');
+        var xCordinateInt = parseInt(xCordinate.substring(0,4));
+        if(xCordinateInt < 6)
+        {
+          xCordinateInt = xCordinateInt + 207;
+          r.style.setProperty('--xCordinate', xCordinateInt + 'px');
+        }
+        else 
+        {
+          r.style.setProperty('--xCordinate', 6 + 'px');
+        }
       }
       
     return(
@@ -61,8 +97,31 @@ function HomePage()
                 <img src={tickimg} className='tickimg-3' alt="tick-image"></img>
                 <img src={tickimg} className='tickimg-4' alt="tick-image"></img>
                 <button onClick={ () => goToSignUpPage()} className='joinnow-btn'>Join Now</button>
-              </div>  
+              </div> 
+              <div className="accounttypes-div">
+                <p className="accounttypes-p">Account Types</p>
+                <img src={accounttypesimg} className='accounttypesimg' alt="accounttypes-image"></img>
+                <img src={leftarrowimg} className='leftarrowimg' alt="leftarrowimg" onClick={() => moveAccountTypesImgLeft()}></img>
+                <img src={leftarrowimg} className='rightarrowimg' alt="rightarrowimg" onClick={() =>moveAccountTypesImgRight() }></img>
+                <button onClick={ () => goToSignUpPage()} className='trading-btn-1'>Start Trading Now</button>
+                <button onClick={ () => goToSignUpPage()} className='trading-btn-2'>Start Trading Now</button>
+                <button onClick={ () => goToSignUpPage()} className='trading-btn-3'>Start Trading Now</button>
+                <button onClick={ () => goToSignUpPage()} className='trading-btn-4'>Start Trading Now</button>
+              </div>
+              <div className="tradingstep-div">
+                <img src={tradingstepimg} className='tradingstepimg' alt="tradingstepimg"></img>
+                <img src={tradingstepimgmobile} className='tradingstepimgmobile' alt="tradingstepimgmobile"></img>
+                <img src={callbackimg} className='callbackimg' alt="callbackimg"></img>
+                <textarea className="textarea-name" maxLength={50} placeholder="Your name"></textarea>
+                <textarea className="textarea-phone" maxLength={50} placeholder="Phone number"></textarea>
+                <button className='callback-btn'>Call me please</button>
+                <div className="callback-div">
+                  <p className="text-10">Wanna Call?</p>
+                  <p className="text-11">Request a call back!</p>
+                </div>
+              </div>
             </div>
+
             <Footer className='Footer'></Footer>
         </div>
 
