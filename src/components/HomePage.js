@@ -1,18 +1,20 @@
+import React, { useState } from 'react';
 import Header from "./Header"
 import Footer from "./Footer"
 import { useMetaTags } from 'react-metatags-hook';
-import '../css/HomePage.css'
-import androidappimg from '../images/androidappimg.png'
-import applebutton from '../images/downloadapple.svg'
-import googlebutton from '../images/downloadgoogle.svg'
-import instrumentimg from '../images/instrumentimg.svg'
-import tickimg from '../images/tickimg.svg'
-import { useNavigate } from 'react-router-dom'
-import accounttypesimg from '../images/accounttypesimg.svg' 
-import leftarrowimg from '../images/leftarrowimg.svg'
-import tradingstepimg from '../images/tradingstepimg.svg'
-import tradingstepimgmobile from '../images/tradingstepimgmobile.svg'
-import callbackimg from '../images/callbackimg.svg'
+import '../css/HomePage.css';
+import androidappimg from '../images/androidappimg.png';
+import applebutton from '../images/downloadapple.svg';
+import googlebutton from '../images/downloadgoogle.svg';
+import instrumentimg from '../images/instrumentimg.svg';
+import tickimg from '../images/tickimg.svg';
+import { useNavigate } from 'react-router-dom';
+import accounttypesimg from '../images/accounttypesimg.svg' ;
+import leftarrowimg from '../images/leftarrowimg.svg';
+import tradingstepimg from '../images/tradingstepimg.svg';
+import tradingstepimgmobile from '../images/tradingstepimgmobile.svg';
+import callbackimg from '../images/callbackimg.svg';
+import AllAPIs from './AllAPIs';
 
 
 function HomePage()
@@ -63,6 +65,36 @@ function HomePage()
           r.style.setProperty('--xCordinate', 6 + 'px');
         }
       }
+
+      const [userData, setuserData] = useState({
+        userName : '',
+        phoneNumber : ''
+      });
+
+      const onNameChange = (event) => {
+        setuserData({...userData, userName : event.target.value})
+      };
+
+      const onPhoneNumberChange = (event) => {
+        setuserData({...userData, phoneNumber : event.target.value})
+      };
+
+      const submit = async () => {
+        const AllAPIsIns = new AllAPIs();
+        try {
+          var response = await AllAPIsIns.AddCallBackUser(userData);
+          if (response.ok) {
+            var r = document.querySelector(':root');
+            r.style.setProperty('--hideElement', 'none');
+            r.style.setProperty('--showElement', 'block');
+          } else {
+            console.log('Error submitting form:', response.statusText);
+          }
+        } catch (error) {
+          console.error('Fetch error:', error);
+        }
+      }
+
       
     return(
         <div className="homepage-container">
@@ -113,17 +145,19 @@ function HomePage()
                 <img src={tradingstepimg} className='tradingstepimg' alt="tradingstepimg"></img>
                 <img src={tradingstepimgmobile} className='tradingstepimgmobile' alt="tradingstepimgmobile"></img>
                 <img src={callbackimg} className='callbackimg' alt="callbackimg"></img>
-                <textarea className="textarea-name" maxLength={50} placeholder="Your name"></textarea>
-                <textarea className="textarea-phone" maxLength={50} placeholder="Phone number"></textarea>
-                <button className='callback-btn'>Call me please</button>
+                <textarea className="textarea-name" maxLength={50} placeholder="Your name" value={userData.userName} onChange={onNameChange}></textarea>
+                <textarea className="textarea-phone" maxLength={50} placeholder="Phone number" value={userData.phoneNumber} onChange={onPhoneNumberChange}></textarea>
+                <button className='callback-btn' onClick={submit}>Call me please</button>
+                <p className='text-12'>Processing your request.<br></br> Thanks for your cooperation.</p>
                 <div className="callback-div">
                   <p className="text-10">Wanna Call?</p>
                   <p className="text-11">Request a call back!</p>
+                  <p className='text-12'>Processing your request.<br></br> Thanks for your cooperation.</p>
                 </div>
               </div>
             </div>
 
-            <Footer className='Footer'></Footer>
+            <Footer></Footer>
         </div>
 
     )
