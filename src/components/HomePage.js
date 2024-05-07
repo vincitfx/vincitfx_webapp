@@ -109,7 +109,7 @@ function HomePage()
                       support without ever leaving your mobile<br /> 
                       device.
                   </p>
-                  <video id='androidappvideoid' className='androidappimg' autoplay="autoplay" loop muted>
+                  <video id='androidappvideoid' className='androidappimg' autoplay="autoplay" loop muted playsInline>
                     <source src={appvideo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
