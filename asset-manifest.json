@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/vincitfx_webapp/static/css/main.b316dafd.css",
-    "main.js": "/vincitfx_webapp/static/js/main.afa1c5ff.js",
+    "main.js": "/vincitfx_webapp/static/js/main.6d57887a.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/instrumentimg.png": "/vincitfx_webapp/static/media/instrumentimg.6be4b452cca8d0203fc9.png",
     "static/media/aboutusimg.png": "/vincitfx_webapp/static/media/aboutusimg.d7f85a8a44964930ff38.png",
-    "static/media/androidappimg.png": "/vincitfx_webapp/static/media/androidappimg.c1eb10c807faa930e593.png",
-    "static/media/appvideo.mp4": "/vincitfx_webapp/static/media/appvideo.306226f0948f9f1d885a.mp4",
+    "static/media/appvideo.mp4": "/vincitfx_webapp/static/media/appvideo.d0a2170875e120fd58d4.mp4",
     "static/media/accounttypesimg.svg": "/vincitfx_webapp/static/media/accounttypesimg.9835a3e8542702707ac981df26864efe.svg",
     "static/media/tradingstepimg.svg": "/vincitfx_webapp/static/media/tradingstepimg.70af82f4e61f2997715f3cf542e1301e.svg",
     "static/media/tradingstepimgmobile.svg": "/vincitfx_webapp/static/media/tradingstepimgmobile.79fefe38d49dc1546bca263eedecbd46.svg",
@@ -26,11 +25,11 @@
     "static/media/tickimg.svg": "/vincitfx_webapp/static/media/tickimg.b39dcb3acc2fe959649239f000cd6000.svg",
     "static/media/leftarrowimg.svg": "/vincitfx_webapp/static/media/leftarrowimg.7cab88535b4d23468d8ed643f7033111.svg",
     "main.b316dafd.css.map": "/vincitfx_webapp/static/css/main.b316dafd.css.map",
-    "main.afa1c5ff.js.map": "/vincitfx_webapp/static/js/main.afa1c5ff.js.map",
+    "main.6d57887a.js.map": "/vincitfx_webapp/static/js/main.6d57887a.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b316dafd.css",
-    "static/js/main.afa1c5ff.js"
+    "static/js/main.6d57887a.js"
   ]
 }
