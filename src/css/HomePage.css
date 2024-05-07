@@ -32,7 +32,7 @@
     top : 60px;
     left: 220px;
     background-color: #49BEB7;
-    border-radius: 50px;
+    border-radius: 8px;
 }
 
 .text-1 {
@@ -63,10 +63,10 @@
 
 .androidappimg {
     position: absolute;
-    top: 28px;
+    top: 20px;
     right: 37px;
     width: 746px;
-    border-radius: 53px;
+    border-radius: 5px;
 }
 
 .applebuton {
@@ -193,7 +193,7 @@
     font-weight: bold;
     background-color: #FF914D;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .joinnow-btn:hover {
@@ -326,7 +326,7 @@
     width : 460px;
     height: 50px;
     background-color: #FFFCFC;
-    border-radius: 10px;
+    border-radius: 4px;
     padding : 10px;
     border: 1px solid white;
 }
@@ -338,7 +338,7 @@
     right: 155px;
     width : 460px;
     background-color: #FFFCFC;
-    border-radius: 10px;
+    border-radius: 4px;
     padding : 10px;
     height: 50px;
     border: 1px solid white;
@@ -354,7 +354,7 @@
     color: white;
     background-color: black;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-weight: bold;
 }
 
@@ -400,11 +400,11 @@
     .androidappimg {
         position: absolute;
         top: 10px;
-        left: 3%;
+        left: 5%;
         right: 3%;
         width: 90%;
         max-height: 300px;
-        border-radius: 26px;
+        border-radius: 5px;
     }
 
     .text-1 {
@@ -531,7 +531,7 @@
         font-weight: bold;
         background-color: #FF914D;
         border: none;
-        border-radius: 8px;
+        border-radius: 4px;
     }
 
     .accounttypes-div {
@@ -633,7 +633,7 @@
         width : 84%;
         height: 50px;
         background-color: #FFFCFC;
-        border-radius: 10px;
+        border-radius: 4px;
         padding : 10px;
         border: 1px solid white;
         z-index: 5;
@@ -645,7 +645,7 @@
         right: 10%;
         width : 84%;
         background-color: #FFFCFC;
-        border-radius: 10px;
+        border-radius: 4px;
         padding : 10px;
         height: 50px;
         border: 1px solid white;
@@ -661,7 +661,7 @@
         color: white;
         background-color: black;
         border: none;
-        border-radius: 10px;
+        border-radius: 4px;
         font-weight: bold;
         z-index: 5;
     }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 import Header from "./Header"
 import Footer from "./Footer"
 import { useMetaTags } from 'react-metatags-hook';
@@ -15,6 +15,7 @@ import tradingstepimg from '../images/tradingstepimg.svg';
 import tradingstepimgmobile from '../images/tradingstepimgmobile.svg';
 import callbackimg from '../images/callbackimg.svg';
 import AllAPIs from './AllAPIs';
+import appvideo from '../videos/appvideo.mp4'
 
 
 function HomePage()
@@ -95,6 +96,10 @@ function HomePage()
         }
       }
 
+      useEffect(() => {
+        var video = document.getElementById("androidappvideoid");
+        video.play();
+      }, []);
       
     return(
         <div className="homepage-container">
@@ -110,12 +115,16 @@ function HomePage()
                       support without ever leaving your mobile<br /> 
                       device.
                   </p>
-                  <img src={androidappimg} className='androidappimg' alt="app-image"></img>
+                  <video id='androidappvideoid' className='androidappimg' loop>
+                    <source src={appvideo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                  {/*<img src={androidappimg} className='androidappimg' alt="app-image"></img> */}
                   <img src={applebutton} className='applebuton' alt="apple-button"></img>
                   <img src={googlebutton} className='googlebutton' alt="googleplay-button"></img>
               </div>
               <div className="instrument-div">
-                <img src={instrumentimg} className='instrumentimg' alt="instrument-image"></img>
+                *<img src={instrumentimg} className='instrumentimg' alt="instrument-image"></img>
                 <p className="text-3">Stay Mobile</p>
                 <p className="text-4">Financial markets are easy. You can always quickly open<br />
                    or close your trading orders using your mobile phone.
