@@ -3,7 +3,6 @@ import Header from "./Header"
 import Footer from "./Footer"
 import { useMetaTags } from 'react-metatags-hook';
 import '../css/HomePage.css';
-import androidappimg from '../images/androidappimg.png';
 import applebutton from '../images/downloadapple.svg';
 import googlebutton from '../images/downloadgoogle.svg';
 import instrumentimg from '../images/instrumentimg.png';
@@ -96,10 +95,10 @@ function HomePage()
         }
       }
 
-      useEffect(() => {
-        var video = document.getElementById("androidappvideoid");
-        video.play();
-      }, []);
+      // useEffect(() => {
+      //   var video = document.getElementById("androidappvideoid");
+      //   video.play();
+      // }, []);
       
     return(
         <div className="homepage-container">
