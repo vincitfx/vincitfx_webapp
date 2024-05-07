@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vincitfx_webapp/static/css/main.b316dafd.css",
-    "main.js": "/vincitfx_webapp/static/js/main.2672217a.js",
+    "main.js": "/vincitfx_webapp/static/js/main.73efaafe.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/instrumentimg.png": "/vincitfx_webapp/static/media/instrumentimg.18e69aade9dca223a6a4.png",
     "static/media/aboutusimg.png": "/vincitfx_webapp/static/media/aboutusimg.d7f85a8a44964930ff38.png",
@@ -25,11 +25,11 @@
     "static/media/tickimg.svg": "/vincitfx_webapp/static/media/tickimg.b39dcb3acc2fe959649239f000cd6000.svg",
     "static/media/leftarrowimg.svg": "/vincitfx_webapp/static/media/leftarrowimg.7cab88535b4d23468d8ed643f7033111.svg",
     "main.b316dafd.css.map": "/vincitfx_webapp/static/css/main.b316dafd.css.map",
-    "main.2672217a.js.map": "/vincitfx_webapp/static/js/main.2672217a.js.map",
+    "main.73efaafe.js.map": "/vincitfx_webapp/static/js/main.73efaafe.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b316dafd.css",
-    "static/js/main.2672217a.js"
+    "static/js/main.73efaafe.js"
   ]
 }
