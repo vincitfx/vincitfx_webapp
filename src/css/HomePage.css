@@ -399,10 +399,10 @@
 
     .androidappimg {
         position: absolute;
-        top: 2px;
+        top: 10px;
         left: 3%;
         right: 3%;
-        width: 94%;
+        width: 90%;
         max-height: 300px;
         border-radius: 26px;
     }
@@ -517,7 +517,7 @@
         top: 452px;
         left: 3%;
         right: 3%;
-        width: 94%;
+        width: 90%;
     }
 
     .joinnow-btn {
@@ -629,7 +629,7 @@
     .textarea-name {
         position: absolute;
         top: 655px;
-        right: 8%;
+        right: 10%;
         width : 84%;
         height: 50px;
         background-color: #FFFCFC;
@@ -642,7 +642,7 @@
     .textarea-phone {
         position: absolute;
         top: 723px;  
-        right: 8%;
+        right: 10%;
         width : 84%;
         background-color: #FFFCFC;
         border-radius: 10px;
@@ -655,7 +655,7 @@
     .callback-btn {
         position: absolute;
         top: 816px;
-        right: 8%;
+        right: 10%;
         width : 84%;
         height: 50px;
         color: white;

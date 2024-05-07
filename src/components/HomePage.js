@@ -6,7 +6,7 @@ import '../css/HomePage.css';
 import androidappimg from '../images/androidappimg.png';
 import applebutton from '../images/downloadapple.svg';
 import googlebutton from '../images/downloadgoogle.svg';
-import instrumentimg from '../images/instrumentimg.svg';
+import instrumentimg from '../images/instrumentimg.png';
 import tickimg from '../images/tickimg.svg';
 import { useNavigate } from 'react-router-dom';
 import accounttypesimg from '../images/accounttypesimg.svg' ;
