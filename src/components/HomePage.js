@@ -94,11 +94,6 @@ function HomePage()
           console.error('Fetch error:', error);
         }
       }
-
-      // useEffect(() => {
-      //   var video = document.getElementById("androidappvideoid");
-      //   video.play();
-      // }, []);
       
     return(
         <div className="homepage-container">
@@ -114,7 +109,7 @@ function HomePage()
                       support without ever leaving your mobile<br /> 
                       device.
                   </p>
-                  <video id='androidappvideoid' className='androidappimg' loop>
+                  <video id='androidappvideoid' className='androidappimg' autoPlay="true" muted="muted" loop>
                     <source src={appvideo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
