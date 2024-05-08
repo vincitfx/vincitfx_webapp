@@ -11,7 +11,7 @@
     position: relative;
     left : 0px;
     right: 0px;
-    background-color: #F5F5F5;
+    background-color: #E6E6E6;
 }
 
 .aboutusimg {
@@ -48,9 +48,8 @@
 .about-text-3 {
     position: absolute;
     top: 645px;
-    left: 620px;
+    left: 38%;
     font-size: 55px;
-    font-weight: bold;
 }
 
 .about-div {
@@ -198,7 +197,7 @@
         top: 450px;
         left: 50px;
         font-size: 26px; 
-        font-weight: bold;
+
     }
 
     .about-div-1 {
