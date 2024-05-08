@@ -187,7 +187,7 @@
     .bonus-teext-2 {
         position: absolute;
         top: 200px;
-        left: 3%;
+        left: 11px;
     }
     
     .bonus-text-3 {
@@ -200,7 +200,7 @@
     .bonus-text-4 {
         position: absolute;
         top: 523px;
-        left: 3%;
+        left: 11px;
     }
     
     .bonus-text-5 {
@@ -213,7 +213,7 @@
     .bonus-text-6 {
         position: absolute;
         top: 2085px;
-        left: 3%;
+        left: 11px;
     }
     
     .bonus-text-7 {
@@ -226,7 +226,7 @@
     .bonus-text-8 {
         position: absolute;
         top: 2640px;
-        left: 3%;
+        left: 11px;
     }
     
     .bonus-text-9 {
@@ -239,6 +239,7 @@
     .bonus-text-10 {
         position: absolute;
         top: 3396px;
+        left: 11px;
     }
     
     .bonus-text-11 {
@@ -251,6 +252,7 @@
     .bonus-text-12 {
         position: absolute;
         top: 3525px;
+        left: 11px;
     }
     
 }

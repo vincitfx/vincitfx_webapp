@@ -192,13 +192,13 @@
     .account-text-4 {
         position: absolute;
         top: 66px;
-        left: 12%;
+        left: 45px;
         font-size: 21px;
     }
     
     .account-btn-1 {
         position: absolute;
-        left: 15%;
+        left: 60px;
         bottom: 24px;
         color: white;
         font-weight: bold;

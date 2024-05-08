@@ -217,9 +217,9 @@
     .funding-title {
         position: absolute;
         top: 60px;
-        left: 4%;
+        left: 40px;
         color: #FF914D;
-        font-size: 32px;
+        font-size: 28px;
         font-weight: bold;
     }
 
@@ -297,7 +297,7 @@
     .funding-btn-1 {
         position: absolute;
         top: 259px;
-        left: 30%;
+        left: 117px;
         display: block;
         width: 181px;
         height: 50px;
@@ -318,7 +318,7 @@
     .funding-btn-5 {
         position: absolute;
         top: 259px;
-        left: 30%;
+        left: 117px;
         display: block;
         width: 181px;
         height: 50px;
