@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/vincitfx_webapp/static/css/main.b316dafd.css",
-    "main.js": "/vincitfx_webapp/static/js/main.713b3944.js",
+    "main.css": "/vincitfx_webapp/static/css/main.5b83d3da.css",
+    "main.js": "/vincitfx_webapp/static/js/main.2454e4fe.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/instrumentimg.png": "/vincitfx_webapp/static/media/instrumentimg.18e69aade9dca223a6a4.png",
+    "static/media/contactbgimg.png": "/vincitfx_webapp/static/media/contactbgimg.b372f71dc6623b9a42b5.png",
+    "static/media/accountbgimg.png": "/vincitfx_webapp/static/media/accountbgimg.208b7aba959d3656600b.png",
     "static/media/aboutusimg.png": "/vincitfx_webapp/static/media/aboutusimg.d7f85a8a44964930ff38.png",
     "static/media/appvideo.mp4": "/vincitfx_webapp/static/media/appvideo.d0a2170875e120fd58d4.mp4",
     "static/media/accounttypesimg.svg": "/vincitfx_webapp/static/media/accounttypesimg.9835a3e8542702707ac981df26864efe.svg",
+    "static/media/fundingwithdrawalimg.svg": "/vincitfx_webapp/static/media/fundingwithdrawalimg.7c36f33a4bd1ca4b83ae0e3c8f7e8caf.svg",
     "static/media/tradingstepimg.svg": "/vincitfx_webapp/static/media/tradingstepimg.70af82f4e61f2997715f3cf542e1301e.svg",
     "static/media/tradingstepimgmobile.svg": "/vincitfx_webapp/static/media/tradingstepimgmobile.79fefe38d49dc1546bca263eedecbd46.svg",
+    "static/media/fundingdepositimg.svg": "/vincitfx_webapp/static/media/fundingdepositimg.bae3fa64adcde8dbdbbeba1e74734dba.svg",
     "static/media/logo.png": "/vincitfx_webapp/static/media/logo.901fe6d116e9807a3be8.png",
     "static/media/downloadapple.svg": "/vincitfx_webapp/static/media/downloadapple.9fba20aaa530db26efa5cdceac7c6f39.svg",
     "static/media/callbackimg.svg": "/vincitfx_webapp/static/media/callbackimg.5bb99d907ce23f220825771a6b12cabc.svg",
     "static/media/downloadgoogle.svg": "/vincitfx_webapp/static/media/downloadgoogle.4d1968161933d2962682f2254c9eb442.svg",
     "static/media/instagram.svg": "/vincitfx_webapp/static/media/instagram.c762d037527775c8fc6f79a116fcf468.svg",
+    "static/media/contactemailimg.svg": "/vincitfx_webapp/static/media/contactemailimg.42a4eccc7b552e899b6a5c8cd171b3a2.svg",
+    "static/media/contactphoneimg.svg": "/vincitfx_webapp/static/media/contactphoneimg.46125e40baa54a388a272b2c07470ac6.svg",
     "static/media/phonenumber.svg": "/vincitfx_webapp/static/media/phonenumber.c6126d77622cc88b9ce36ebf42dc120e.svg",
     "static/media/linkedin.svg": "/vincitfx_webapp/static/media/linkedin.c491ac3694538f82989621c33b758aa3.svg",
     "index.html": "/vincitfx_webapp/index.html",
@@ -21,15 +27,16 @@
     "static/media/email.svg": "/vincitfx_webapp/static/media/email.88f84000963502c73891629de55a62de.svg",
     "static/media/facebook.svg": "/vincitfx_webapp/static/media/facebook.d25814dea393ca3a592ee982fb8258c4.svg",
     "static/media/address.svg": "/vincitfx_webapp/static/media/address.5771f3a481d238fedc802998463915d1.svg",
+    "static/media/contactchatimg.svg": "/vincitfx_webapp/static/media/contactchatimg.47b9eec76667db7959ece21365dfabdb.svg",
     "static/media/twitter.svg": "/vincitfx_webapp/static/media/twitter.0c34b60120106d486baacdac16ba6a21.svg",
     "static/media/tickimg.svg": "/vincitfx_webapp/static/media/tickimg.b39dcb3acc2fe959649239f000cd6000.svg",
     "static/media/leftarrowimg.svg": "/vincitfx_webapp/static/media/leftarrowimg.7cab88535b4d23468d8ed643f7033111.svg",
-    "main.b316dafd.css.map": "/vincitfx_webapp/static/css/main.b316dafd.css.map",
-    "main.713b3944.js.map": "/vincitfx_webapp/static/js/main.713b3944.js.map",
+    "main.5b83d3da.css.map": "/vincitfx_webapp/static/css/main.5b83d3da.css.map",
+    "main.2454e4fe.js.map": "/vincitfx_webapp/static/js/main.2454e4fe.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b316dafd.css",
-    "static/js/main.713b3944.js"
+    "static/css/main.5b83d3da.css",
+    "static/js/main.2454e4fe.js"
   ]
 }
