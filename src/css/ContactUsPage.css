@@ -121,8 +121,9 @@
 
     .contact-line {
         top: 197px;
-        left: 8%;
-        font-size: 24px;
+        left: 0%;
+        font-size: 20px;
+        text-align: center;
     }
 
     .contactemailimg {
@@ -150,8 +151,8 @@
     .contact-email-title {
         position: absolute;
         top: 358px;
-        left: 42%;
-        font-size: 22px;
+        left: 43.5%;
+        font-size: 18px;
         font-weight: bold;
 
     }
@@ -159,40 +160,40 @@
     .contact-email {
         position: absolute;
         top: 384px;
-        left: 26%;
-        font-size: 22px;
+        left: 29.5%;
+        font-size: 18px;
         color: #00544F;
     }
 
     .contact-call-title {
         position: absolute;
         top: 538px;
-        left: 45.5%;
-        font-size: 22px;
+        left: 47%;
+        font-size: 18px;
         font-weight: bold;
     }
 
     .contact-call {
         position: absolute;
         top: 567px;
-        left: 32%;
-        font-size: 22px;
+        left: 35.5%;
+        font-size: 18px;
         color: #00544F;
     }
 
     .contact-chat {
         position: absolute;
         top: 741px;
-        left: 39.5%;
-        font-size: 22px;
+        left: 40%;
+        font-size: 18px;
         font-weight: bold;  
     }
 
     .contact-chat-support {
         position: absolute;
         top: 765px;
-        left: 33.5%;
-        font-size: 22px;
+        left: 35%;
+        font-size: 18px;
         color: #00544F; 
     }
 }

@@ -184,16 +184,16 @@
     .account-text-3 {
         position: absolute;
         top: 15px;
-        left: 15%;
-        font-size: 40px;
+        left: 20%;
+        font-size: 32px;
         font-weight: bold;
     }
     
     .account-text-4 {
         position: absolute;
         top: 66px;
-        left: 5%;
-        font-size: 25px;
+        left: 12%;
+        font-size: 21px;
     }
     
     .account-btn-1 {
