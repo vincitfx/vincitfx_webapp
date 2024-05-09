@@ -142,11 +142,11 @@
 
 @media only screen and (max-width: 800px) {
 .bonus-main-div {
-    height: 4142px;
+    height: 4242px;
 }
 
 .bonus-div {
-    height: 3850px;
+    height: 3950px;
 }
 
     .bonus-title {
@@ -187,33 +187,36 @@
     .bonus-teext-2 {
         position: absolute;
         top: 200px;
-        left: 11px;
+        left: 9px;
+        right: 9px; 
     }
     
     .bonus-text-3 {
         position: absolute;
-        top: 533px;
+        top: 515px;
         left: 2%;
         font-size: 18px;
     }
     
     .bonus-text-4 {
         position: absolute;
-        top: 578px;
-        left: 11px;
+        top: 555px;
+        left: 9px;
+        right: 9px;
     }
     
     .bonus-text-5 {
         position: absolute;
-        top: 2165px;
+        top: 2090px;
         left: 2%;
         font-size: 18px;
     }
     
     .bonus-text-6 {
         position: absolute;
-        top: 2200px;
-        left: 11px;
+        top: 2135px;
+        left: 9px;
+        right: 9px;
     }
     
     .bonus-text-7 {
@@ -225,34 +228,37 @@
     
     .bonus-text-8 {
         position: absolute;
-        top: 2680px;
-        left: 11px;
+        top: 2695px;
+        left: 9px;
+        right: 9px;
     }
     
     .bonus-text-9 {
         position: absolute;
-        top: 3406px;
+        top: 3435px;
         left: 2%;
         font-size: 18px;
     }
     
     .bonus-text-10 {
         position: absolute;
-        top: 3436px;
-        left: 11px;
+        top: 3485px;
+        left: 9px;
+        right: 9px;
     }
     
     .bonus-text-11 {
         position: absolute;
-        top: 3535px;
+        top: 3565px;
         left: 2%;
         font-size: 18px;
     }
     
     .bonus-text-12 {
         position: absolute;
-        top: 3565px;
-        left: 11px;
+        top: 3605px;
+        left: 9px;
+        right: 9px;
     }
     
 }
