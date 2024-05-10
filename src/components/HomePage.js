@@ -15,6 +15,7 @@ import tradingstepimgmobile from '../images/tradingstepimgmobile.svg';
 import callbackimg from '../images/callbackimg.svg';
 import AllAPIs from './AllAPIs';
 import appvideo from '../videos/appvideo.mp4'
+import indicesvideo from '../videos/indicesvideo.mp4'
 
 
 function HomePage()
@@ -118,12 +119,16 @@ function HomePage()
                   <img src={googlebutton} className='googlebutton' alt="googleplay-button"></img>
               </div>
               <div className="instrument-div">
-                *<img src={instrumentimg} className='instrumentimg' alt="instrument-image"></img>
+              <video className='instrumentimg' autoplay="autoplay" loop muted playsInline>
+                    <source src={indicesvideo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                {/* <img src={instrumentimg} className='instrumentimg' alt="instrument-image"></img> */}
                 <p className="text-3">Stay Mobile</p>
                 <p className="text-4">Financial markets are easy. You can always quickly open<br />
                    or close your trading orders using your mobile phone.
                 </p>
-                <p className="text-5">Available on <mark style={{color: '#FF914D', backgroundColor : "#F5F5F5"}}>iOS</mark>and<mark style={{color: '#FF914D', backgroundColor : "#F5F5F5"}}>Android</mark></p>
+                <p className="text-5">Available on <mark style={{color: '#FF914D', backgroundColor : "#E6E6E6"}}>iOS</mark>and<mark style={{color: '#FF914D', backgroundColor : "#E6E6E6"}}>Android</mark></p>
                 <p className="text-6">Trade 1000+ instruments</p>
                 <p className="text-7">Multi-asset classes</p>
                 <p className="text-8">Variety of payment methods</p>
@@ -148,8 +153,8 @@ function HomePage()
                 <img src={tradingstepimg} className='tradingstepimg' alt="tradingstepimg"></img>
                 <img src={tradingstepimgmobile} className='tradingstepimgmobile' alt="tradingstepimgmobile"></img>
                 <img src={callbackimg} className='callbackimg' alt="callbackimg"></img>
-                <textarea className="textarea-name" maxLength={50} placeholder="Your name" value={userData.userName} onChange={onNameChange}></textarea>
-                <textarea className="textarea-phone" maxLength={50} placeholder="Phone number" value={userData.phoneNumber} onChange={onPhoneNumberChange}></textarea>
+                <input className="textarea-name" maxLength={50} placeholder="Your name" value={userData.userName} onChange={onNameChange}></input>
+                <input className="textarea-phone" maxLength={50} placeholder="Phone number" value={userData.phoneNumber} onChange={onPhoneNumberChange}></input>
                 <button className='callback-btn' onClick={submit}>Call me please</button>
                 <p className='text-12'>Processing your request.<br></br> Thanks for your cooperation.</p>
                 <div className="callback-div">

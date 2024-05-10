@@ -1,3 +1,10 @@
+:root {
+    --showDepositDiv : block;
+    --showWithdrawalDiv : none;
+    --backgroundDepositColor : #E6E6E6;
+    --backgroundWithdrawalColor : white
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,13 +15,14 @@
 .funding-main-div {
     position: relative;
     width: 100%;
-    height: 1620px;
-    background-color: #f0f0f0;
+    height: 952px;
+    background-color: #E6E6E6;
 }
 
 .aboutusimg-2 {
     width: 100%;
     height: 300px;
+    filter: brightness(25%);
 }
 
 .funding-title {
@@ -30,184 +38,240 @@
     position: absolute;
     top: 350px;
     left: 38%;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .funding-deposit-div {
     position: absolute;
-    top: 450px;
+    top: 471px;
     width: 100%;
+    border: 2px dashed red;
+    display: var(--showDepositDiv);
+    border: none;
+    border-radius: 8px;
+
 }
 
 .funding-with-div {
     position: absolute;
-    top: 1040px;
+    top: 473px;
     width: 100%;
+    display: var(--showWithdrawalDiv);
+    border: none;
+    border-radius: 8px;
 }
 
 .deposit-div {
     position: absolute;
-    top: 10px;
-    left: 47%;
-    width: 200px;
+    top: 480px;
+    left: 574px;
+    width: 410px;
     height: 70px;
-    border: 2px solid #FF914D;
-    border-radius: 12px 12px 0px 0px;
-    background-color: #FFF6F6;
+    border: none;
+    background-color: var(--backgroundDepositColor);
+    border-radius: 8px 8px 0px 0px ;
 }
 
 .with-div {
     position: absolute;
-    top: 10px;
-    left: 46%;
-    width: 252px;
+    top: 480px;
+    left: 993px;
+    width: 410px;
     height: 70px;
-    border: 2px solid #FF914D;
-    border-radius: 12px 12px 0px 0px;
-    background-color: #FFF6F6; 
+    border: none;
+    background-color: var(--backgroundWithdrawalColor);
+    border-radius: 8px 8px 0px 0px ;
 }
 
 .with-text {
     position: absolute;
-    top: 10px;
-    left: 13%;
-    font-size: 32px;
+    top: 21px;
+    left: 33%;
+    font-size: 20px;
     font-weight: bold;
-    color: #FF914D;
+    color: black;
 }
 
 .deposit-text {
     position: absolute;
-    top: 10px;
-    left: 15%;
-    font-size: 32px;
+    top: 21px;
+    left: 40%;
+    font-size: 20px;
     font-weight: bold;
-    color: #FF914D;
+    color: black;
 }
 
 .fundingdepositimg {
     position: absolute;
-    top: 82px;
-    left: 18%;
-    width: 64%;
+    top: 84px;
+    left: 485px;
+    width: 993px;
 
 }
 
 .fundingwithdrawalimg {
     position: absolute;
     top: 82px;
-    left: 18%;
-    width: 64%;  
+    left: 485px;
+    width: 993px; 
 }
 
 .funding-btn-1 {
     position: absolute;
-    top: 151px;
-    left: 69%;
-    color: #FF914D;
+    top: 142px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-2 {
     position: absolute;
-    top: 240px;
-    left: 69%;
-    color: #FF914D;
+    top: 215px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-3 {
     position: absolute;
-    top: 330px;
-    left: 69%;
-    color: #FF914D;
+    top: 289px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-4 {
     position: absolute;
-    top: 420px;
-    left: 69%;
-    color: #FF914D;
+    top: 361px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-8 {
     position: absolute;
-    top: 420px;
-    left: 69%;
-    color: #FF914D;
+    top: 361px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-5 {
     position: absolute;
-    top: 151px;
-    left: 69%;
-    color: #FF914D;
+    top: 142px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-6 {
     position: absolute;
-    top: 240px;
-    left: 69%;
-    color: #FF914D;
+    top: 215px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
-    background-color: black;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
 }
 
 .funding-btn-7 {
     position: absolute;
-    top: 330px;
-    left: 69%;
-    color: #FF914D;
+    top: 289px;
+left: 1275px;
+    color: black;
     font-weight: bold;
-    width: 224px;
-    height: 60px;
+    width: 140px;
+    height: 44px;
     border-radius: 5px;
-    border: 3px solid #FF914D;
+    border: none;
+    background-color: #FF914D;
+    font-size: 14px;
+}
+
+.funding-btn-1:hover {
     background-color: black;
+    color: white;
+}
+
+.funding-btn-2:hover {
+    background-color: black;
+    color: white;
+}
+
+.funding-btn-3:hover {
+    background-color: black;
+    color: white;
+}
+
+.funding-btn-4:hover {
+    background-color: black;
+    color: white;
+}
+
+.funding-btn-5:hover {
+    background-color: black;
+    color: white;
+}
+
+.funding-btn-6:hover {
+    background-color: black;
+    color: white;
+}
+
+.funding-btn-7:hover {
+    background-color: black;
+    color: white;
+}
+
+.funding-btn-8:hover {
+    background-color: black;
+    color: white;
 }
 
 @media only screen and (max-width: 800px) {
 
     .funding-main-div {
-        height: 1000px;
+        height: 630px;
     }
 
     .aboutusimg-2 {
@@ -232,75 +296,78 @@
 
     .funding-deposit-div {
         position: absolute;
-        top: 254px;
+        top: 348px;
         width: 100%;
+        display: var(--showDepositDiv);
     }
 
     .funding-with-div {
         position: absolute;
-        top: 630px;
+        top: 348px;
         width: 100%;
+        display: var(--showWithdrawalDiv);
     }
 
     .deposit-div {
         position: absolute;
-        top: 10px;
-        left: 37%;
-        width: 110px;
+        top: 264px;
+        left: 45px;
+        width: 150px;
         height: 50px;
     }
 
     .with-div {
         position: absolute;
-        top: 10px;
-        left: 32%;
+        top: 264px;
+        left: 200px;
         width: 150px;
         height: 50px;
+    
     }
 
     .deposit-text {
         position: absolute;
-        top: 10px;
-        left: 15%;
+        top: 12px;
+        left: 39px;
         font-size: 18px;
         font-weight: bold;
-        color: #FF914D;
+
     }
 
     .with-text {
         position: absolute;
-        top: 10px;
-        left: 12%;
+        top: 12px;
+        left: 22px;
         font-size: 18px;
         font-weight: bold;
-        color: #FF914D;
+
     }
 
     .fundingdepositimg {
         position: absolute;
-        top: 6px;
-        left: -7%;
+        top: -35px;
+        left: -31px;
         width: 139%;
-        height: 300px;
+        height: 202px;
     
     }
 
     .fundingwithdrawalimg {
         position: absolute;
-        top: 6px;
-        left: -7%;
+        top: -35px;
+        left: -31px;
         width: 139%;
-        height: 300px;
+        height: 202px;
     
     }
 
     .funding-btn-1 {
         position: absolute;
-        top: 259px;
-        left: 117px;
+        top: 181px;
+        left: 91px;
         display: block;
-        width: 181px;
-        height: 50px;
+        width: 222px;
+        height: 42px;
     }
 
     .funding-btn-2 {
@@ -317,11 +384,11 @@
 
     .funding-btn-5 {
         position: absolute;
-        top: 259px;
-        left: 117px;
+        top: 181px;
+        left: 91px;
         display: block;
-        width: 181px;
-        height: 50px;
+        width: 222px;
+        height: 42px;
     }
 
     .funding-btn-6 {

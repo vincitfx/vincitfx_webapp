@@ -46,7 +46,7 @@
     position: absolute;
     left: 44%;
     top: 460px;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .accounttypesimg-2 {
@@ -93,7 +93,9 @@
 }
 
 .account-btn-1:hover {
-    border: 3px solid #49BEB7;
+    background-color:#FF914D ;
+    color: black;
+    border: none;
 }
 
 .leftarrowimg-2 {
