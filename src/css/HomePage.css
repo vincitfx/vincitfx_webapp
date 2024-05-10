@@ -389,7 +389,7 @@
 @media only screen and (max-width: 800px) {
 
     .main-app-div {
-        height: 2970px;
+        height: 2932px;
     }
 
     .app-div {
@@ -521,9 +521,9 @@
     .instrumentimg {
         position: absolute;
         top: 452px;
-        left: 3%;
-        right: 3%;
-        width: 90%;
+        left: -16px;
+        right: 0;
+        width: 119%;
     }
 
     .joinnow-btn {
@@ -612,7 +612,7 @@
     .tradingstep-div {
         width: 100%;
         position: absolute;
-        top: 2033px;
+        top: 1986px;
         height: 1000px;
         left: 1%;
     }
@@ -624,8 +624,9 @@
     .tradingstepimgmobile {
         position: absolute;
         top: -40px;
+        left: 36px;
         display: block;
-        width: 98%;
+        width: 80%;
     }
 
     .callbackimg {
