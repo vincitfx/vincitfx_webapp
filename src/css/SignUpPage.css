@@ -213,7 +213,7 @@
     }
 
     .signup-main-div {
-        height: 900px;
+        height: 929px;
     }
 
     .signup-div-1 {
@@ -290,9 +290,11 @@
 
     .signup-text-2 {
         left: 88px;
+        top: 740px;
     }
 
     .signup-text-3 {
         left: 269px;
+        top: 740px;
     }
 }
