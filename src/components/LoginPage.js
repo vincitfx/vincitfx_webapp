@@ -1,7 +1,16 @@
 import '../css/LoginPage.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function LoginPage()
 {
+
+    const navigate = useNavigate()
+
+    const goToSignUpPage = ()=>{
+        navigate('/signup');
+    }
+
     return(
         <div className="login-main-div">
             <div className="login-div-1">
@@ -13,6 +22,7 @@ function LoginPage()
                 <input id='login-textarea-2' className="login-textarea" maxLength={50} placeholder="Password" ></input>
                 <a className='login-p-1'>Forgot Password?</a>
                 <button className='login-btn-1'>Login</button>
+                <a className='login-p-2' onClick={() => goToSignUpPage()}>Sign up</a>
             </div>
             <div className="login-div-2">
 

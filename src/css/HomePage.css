@@ -359,9 +359,15 @@
     height: 50px;
     color: white;
     background-color: black;
-    border: none;
+    border: 2px solid white;
     border-radius: 4px;
     font-weight: bold;
+}
+
+.callback-btn:hover {
+    background-color: #FF914D;
+    color: black;
+    border: none;
 }
 
 .callback-div {
@@ -389,7 +395,8 @@
 @media only screen and (max-width: 800px) {
 
     .main-app-div {
-        height: 2932px;
+        height: 2846px;
+        overflow: hidden;
     }
 
     .app-div {
@@ -635,7 +642,7 @@
     
     .textarea-name {
         position: absolute;
-        top: 655px;
+        top: 565px;
         right: 10%;
         width : 84%;
         height: 50px;
@@ -648,7 +655,7 @@
     
     .textarea-phone {
         position: absolute;
-        top: 723px;  
+        top: 633px;  
         right: 10%;
         width : 84%;
         background-color: #FFFCFC;
@@ -661,7 +668,7 @@
     
     .callback-btn {
         position: absolute;
-        top: 816px;
+        top: 726px;
         right: 10%;
         width : 84%;
         height: 50px;
@@ -674,9 +681,10 @@
     }
     
 
+
     .callback-div {
         position: absolute;
-        top: 520px;
+        top: 430px;
         display: block;
         width: 100%;
         height: 393px;

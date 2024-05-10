@@ -163,7 +163,7 @@
     font-weight: bold;
     font-size: 31px;
     left: 217px;
-    top: 65px;
+    top: 68px;
     color: white;
 }
 
@@ -244,7 +244,7 @@
 
     .signup-text-4 {
         top: 97px;
-        left: 79px;
+        left: 69px;
     }
 
     .signupstepsimg {
@@ -259,7 +259,7 @@
     .downarrowimg {
         position: absolute;
         bottom: -16px;
-        left: 143px;
+        left: 128px;
         display: block;
         width: 112px;
         transform: scaleY(var(--arrowFlip)); 
@@ -281,7 +281,7 @@
     }
 
     .singup-aggrement {
-        left: 58px;
+        left: 64px;
         font-size: 12px;
     }
 
