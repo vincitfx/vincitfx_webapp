@@ -110,6 +110,7 @@
 
     .account-main-div {
         height: 1245px;
+        overflow: hidden;
     }
 
     .accountbgimg {

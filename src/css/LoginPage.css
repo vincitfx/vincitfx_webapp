@@ -107,3 +107,117 @@
 .login-p-2:hover {
     color: #6e6e6e;
 }
+
+.login-p-3 {
+    position: absolute;
+    top: 165px;
+    left: 148px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.socialmedia-icon {
+    position: absolute;
+    top : 255px;
+    width: 50px;
+}
+
+.socialmedia-icon:hover {
+    opacity: 50%;
+}
+
+#facebook-icon {
+    left: 50px; 
+}
+
+#instagram-icon {
+    left: 130px; 
+}
+
+#linkedin-icon {
+    left: 210px; 
+}
+
+#twitter-icon {
+    left: 290px; 
+}
+
+#youtube-icon {
+    left: 370px; 
+}
+
+@media only screen and (max-width: 800px) {
+    .login-div-2{
+        top: 0%;
+        left: 0px;
+        width: 100%;
+        border-radius: 0px;
+        height: 30%;
+    }
+
+    .login-div-1 {
+        top: 30%;
+        left: 0px;
+        width: 100%;
+        border-radius: 0px;
+        height: 70%;
+    }
+
+    .login-p-3 {
+        top: 120px;
+        left: 84px;
+    }
+
+    .socialmedia-icon {
+        width: 40px;
+        top: 195px;
+    }
+
+    
+    #facebook-icon {
+        left: 30px; 
+    }
+
+    #instagram-icon {
+        left: 95px; 
+    }
+
+    #linkedin-icon {
+        left: 165px; 
+    }
+
+    #twitter-icon {
+        left: 235px; 
+    }
+
+    #youtube-icon {
+        left: 295px; 
+    }
+
+    .login-text-1 {
+        top: 26px;
+        left: 81px;
+    }
+
+    .login-textarea {
+        left: 30px;
+        width: 320px;
+    }
+
+    .login-p-1 {
+        left: 38px;
+    }
+
+    .login-btn-1 {
+        left: 30px;
+        width: 320px;
+    }
+
+    .login-p-2 {
+        left: 161px;
+    }
+}
+
