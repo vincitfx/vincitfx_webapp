@@ -158,6 +158,11 @@
         height: 30%;
     }
 
+    .logo-icon-signup {
+        top: 10%;
+        left: 41%;
+    }
+
     .login-div-1 {
         top: 30%;
         left: 0px;
@@ -167,13 +172,13 @@
     }
 
     .login-p-3 {
-        top: 120px;
-        left: 84px;
+        top: 48%;
+        left: 23%;
     }
 
     .socialmedia-icon {
         width: 40px;
-        top: 195px;
+        top: 71%;
     }
 
     
