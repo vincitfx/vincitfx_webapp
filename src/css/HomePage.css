@@ -26,7 +26,7 @@
 }
 
 .app-div {
-    width: 70%;
+    width: 1330px;
     height: 460px;
     position: absolute;
     top : 60px;
@@ -122,9 +122,9 @@
 
 .instrumentimg {
     position: absolute;
-    top: 76px;
-    left: -89px;
-    width: 70%;
+    top: 137px;
+    left: -46px;
+    width: 869px;
 }
 
 .text-6 {
@@ -392,11 +392,28 @@
     color: rgb(51, 51, 51);
 }
 
+.phonenumber-errormsg {
+    color: #cb0000;
+    z-index: 10;
+    position: absolute;
+    top: 588px;
+    left: 760px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 800px) {
 
     .main-app-div {
         height: 2846px;
         overflow: hidden;
+    }
+
+    .phonenumber-errormsg {
+        top: 687px;
+        left:  24px;
+        right: auto;
+        font-size: 15px;
     }
 
     .app-div {
@@ -668,7 +685,7 @@
     
     .callback-btn {
         position: absolute;
-        top: 726px;
+        top: 753px;
         right: 10%;
         width : 84%;
         height: 50px;

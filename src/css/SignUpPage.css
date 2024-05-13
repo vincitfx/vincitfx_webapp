@@ -31,7 +31,7 @@
 .signup-div-2 {
     position: absolute;
     width: 25%;
-    background-color: #070417;
+    background-color: black;
     height: 86%;
     top: 7%;
     right: 25%;
@@ -93,7 +93,7 @@
 .signup-btn-1 {
     position: absolute;
     left: 60px;
-    top: 550px;
+    top: 560px;
     width: 350px;
     height: 47px;
     font-size: 22px;
@@ -198,6 +198,14 @@
     display: none;
 }
 
+.validmsg {
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: 512px;
+    left: 64px;
+}
+
 @media only screen and (max-width: 800px) {
 
     .backarrowimgblack {
@@ -214,6 +222,10 @@
 
     .signup-main-div {
         height: 929px;
+    }
+
+    .validmsg {
+        left : 30px
     }
 
     .signup-div-1 {
@@ -297,5 +309,9 @@
     .signup-text-3 {
         left: 254px;
         top: 714px;
+    }
+
+    .signup-btn-1 {
+        top: 566px;
     }
 }

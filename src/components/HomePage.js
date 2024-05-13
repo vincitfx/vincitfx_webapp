@@ -72,18 +72,42 @@ function HomePage()
         phoneNumber : ''
       });
 
+      const [isValid, setIsValid] = useState(true);
+      const [validMsg, setvalidMsg] = useState('');
+
       const onNameChange = (event) => {
-        setuserData({...userData, userName : event.target.value})
+        const inputUserName = event.target.value;
+        const userNameRegex = new RegExp(/^[A-Za-z\s]*$/);
+        if (userNameRegex.test(inputUserName)) {
+          setIsValid(true);
+          setuserData({...userData, userName : inputUserName});
+        }
+        else {
+          setvalidMsg("Please enter a valid name (only alphabets and spaces are allowed)")
+          setIsValid(false);
+        } 
       };
 
       const onPhoneNumberChange = (event) => {
-        setuserData({...userData, phoneNumber : event.target.value})
+        const inputPhoneNumber = event.target.value;
+        // Regular expression to validate phone number with country code
+        const phoneNumberRegex = new RegExp(/^[0-9\b\+\-\(\)]*$/);
+        
+        if (phoneNumberRegex.test(inputPhoneNumber)) {
+          setuserData({...userData, phoneNumber : inputPhoneNumber});
+          setIsValid(true);
+        } else {
+          setvalidMsg("Please enter a valid phone number with country code (e.g., +1234567890)")
+          setIsValid(false);
+        }
+        
       };
 
       const submit = async () => {
+
         const AllAPIsIns = new AllAPIs();
         try {
-          var response = await AllAPIsIns.AddCallBackUser(userData);
+          var response = await AllAPIsIns.addCallBackUser(userData);
           if (response.ok) {
             var r = document.querySelector(':root');
             r.style.setProperty('--hideElement', 'none');
@@ -155,6 +179,9 @@ function HomePage()
                 <img src={callbackimg} className='callbackimg' alt="callbackimg"></img>
                 <input className="textarea-name" maxLength={50} placeholder="Your name" value={userData.userName} onChange={onNameChange}></input>
                 <input className="textarea-phone" maxLength={50} placeholder="Phone number" value={userData.phoneNumber} onChange={onPhoneNumberChange}></input>
+                {!isValid ?
+                  <span className='phonenumber-errormsg'>{validMsg}</span> : <span></span>
+                }
                 <button className='callback-btn' onClick={submit}>Call me please</button>
                 <p className='text-12'>Processing your request.<br></br> Thanks for your cooperation.</p>
                 <div className="callback-div">

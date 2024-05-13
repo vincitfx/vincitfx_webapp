@@ -8,6 +8,8 @@ import AccountTypesPage from './components/AccountTypesPage';
 import CreditBonusPage from './components/CreditBonusPage';
 import HomePage from './components/HomePage';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import DashboardPage from './components/DashboardPage';
+import ForgotPasswordPage from './components/ForgotPasswordPage';
 function App() {
   return (
     <div>
@@ -23,6 +25,8 @@ function App() {
             <Route path="/accounttypes" element={<AccountTypesPage />} ></Route>
             <Route path="/funding" element={<FundingPage />} ></Route>
             <Route path="/creditbonus" element={<CreditBonusPage />} ></Route>
+            <Route path="/dashboard/:clientGuid" element={<DashboardPage />} ></Route>
+            <Route path="/forgotpassword" element={<ForgotPasswordPage />} ></Route>
           </Routes>
       </Router>
     </div>

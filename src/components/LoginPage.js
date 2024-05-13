@@ -8,7 +8,9 @@ import twitter from '../images/twitter.svg'
 import youtube from '../images/youtube.svg'
 import backarrowimgblack from '../images/backarrowimgblack.svg';
 import backarrowimgwhite from '../images/backarrowimgwhite.svg';
-
+import { useState } from 'react';
+import AllAPIs from './AllAPIs';
+ 
 function LoginPage()
 {
 
@@ -22,19 +24,62 @@ function LoginPage()
         navigate('/');
     }
 
+    const goToForgotPasswordPage = ()=>{
+        navigate('/forgotpassword');
+    }
+
+    const [loginData, setLoginData] = useState({
+        email : '',
+        password : ''
+    })
+
+    const onEmailChange = (event) => {
+        setLoginData({...loginData, email : event.target.value});
+    }
+
+    const onPasswordChange = (event) => {
+        setLoginData({...loginData, password : event.target.value});
+    }
+
+    const submit = async () => {
+        const AllAPIsIns = new AllAPIs();
+        var canLoginKey = false;
+        var clientGuid = "";
+        try {
+            var response = await AllAPIsIns.canLogin(loginData).then(response => {
+              if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+              return response.json()
+            }).then(data => {
+              canLoginKey = data.CanLogin
+              clientGuid = data.ClientGuid;
+              if(canLoginKey){
+                navigate(`/dashboard/${clientGuid}`)
+              }
+              else{
+                return;
+              }
+              
+            });
+          } catch (error) {
+            console.error('Fetch error:', error);
+          }
+    }
+
     return(
         <div className="login-main-div">
             <div className="login-div-1">
-                <img src={backarrowimgblack} className='backarrowimgblack' alt="image" onClick={()=> goToHomePage()}></img>
+                <img style={{cursor:"pointer"}} src={backarrowimgblack} className='backarrowimgblack' alt="image" onClick={()=> goToHomePage()}></img>
                 <p className='login-text-1'>
                     Log in and<br />
                     <mark style={{color: '#FF914D', backgroundColor : "white", backgroundColor:'rgba(0, 0, 0, 0)' }}>Trade with VincitFX</mark>
                 </p>
-                <input id='login-textarea-1' className="login-textarea" maxLength={50} placeholder="Email" ></input>
-                <input id='login-textarea-2' className="login-textarea" maxLength={50} placeholder="Password" ></input>
-                <a className='login-p-1'>Forgot Password?</a>
-                <button className='login-btn-1'>Login</button>
-                <a className='login-p-2' onClick={() => goToSignUpPage()}>Sign up</a>
+                <input id='login-textarea-1' className="login-textarea" value={loginData.email} onChange={onEmailChange} maxLength={50} placeholder="Email" ></input>
+                <input id='login-textarea-2' className="login-textarea" value={loginData.password} onChange={onPasswordChange} maxLength={50} placeholder="Password" ></input>
+                <a style={{cursor:"pointer"}} className='login-p-1' onClick={() => goToForgotPasswordPage()}>Forgot Password?</a>
+                <button className='login-btn-1' onClick={submit}>Login</button>
+                <a style={{cursor:"pointer"}} className='login-p-2' onClick={() => goToSignUpPage()}>Sign up</a>
             </div>
             <div className="login-div-2">
                 <img src={backarrowimgwhite} className='backarrowimgwhite' alt="image" onClick={()=> goToHomePage()}></img>
