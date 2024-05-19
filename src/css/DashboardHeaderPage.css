@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    color : black
+}
+
+.dashboard-header-main-div {
+    width: 100%;
+    height: 100px;
+}
+
+.myprofileicon {
+    width: 40px;
+}
+
+.myprofile-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.myprofile-text {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.myprofile-btn {
+    background-color: white;
+    border: none;
+    width: 80px;
+}

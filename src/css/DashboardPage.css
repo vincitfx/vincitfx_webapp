@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    color : black
+}
+
+.dashboard-main-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 900px;
+    background-color: #E6E6E6;
+
+
+}

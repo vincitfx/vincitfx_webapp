@@ -1,13 +1,19 @@
 
 import { useParams  } from "react-router-dom";
-
+import DashboardHeaderPage from "./DashboardHeaderPage";
+import '../css/DashboardPage.css'
 
 function DashboardPage() {
     let { clientGuid } = useParams();
     
 
     return(
-        <h1>Welcome to VincitFX {clientGuid}</h1>
+        <div>
+            <DashboardHeaderPage guid={clientGuid}></DashboardHeaderPage>
+            <div className="dashboard-main-div">
+                <p>Anish Kumar</p>
+            </div>
+        </div>
     )
 }
 

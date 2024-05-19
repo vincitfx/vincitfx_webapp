@@ -52,6 +52,7 @@ function LoginPage()
               return response.json()
             }).then(data => {
               clientGuid = data.ClientGuid;
+              localStorage.setItem("clientData", clientGuid)
                 navigate(`/dashboard/${clientGuid}`)
             });
           } catch (error) {
