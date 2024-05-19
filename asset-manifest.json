@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vincitfx_webapp/static/css/main.f354af64.css",
-    "main.js": "/vincitfx_webapp/static/js/main.4b366a7e.js",
+    "main.css": "/vincitfx_webapp/static/css/main.8c3d6321.css",
+    "main.js": "/vincitfx_webapp/static/js/main.1216fa27.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/instrumentimg.png": "/vincitfx_webapp/static/media/instrumentimg.18e69aade9dca223a6a4.png",
     "static/media/indicesvideo.mp4": "/vincitfx_webapp/static/media/indicesvideo.5b2815fedda55b90a519.mp4",
@@ -22,10 +22,10 @@
     "static/media/downloadgoogle.svg": "/vincitfx_webapp/static/media/downloadgoogle.eac3ac41257b694a645aefa9c80540bf.svg",
     "static/media/instagram.svg": "/vincitfx_webapp/static/media/instagram.929dbed68f2fd21e5be3c99099b80a68.svg",
     "static/media/contactemailimg.svg": "/vincitfx_webapp/static/media/contactemailimg.d031267a54138e528da07908641600de.svg",
+    "index.html": "/vincitfx_webapp/index.html",
     "static/media/contactphoneimg.svg": "/vincitfx_webapp/static/media/contactphoneimg.af515aed91cf5154bc335780078bcbe8.svg",
     "static/media/phonenumber.svg": "/vincitfx_webapp/static/media/phonenumber.1596ab4ca504e56ca659842d85cc8813.svg",
     "static/media/linkedin.svg": "/vincitfx_webapp/static/media/linkedin.64ec6641aeebc305d6a8c20e145491dc.svg",
-    "index.html": "/vincitfx_webapp/index.html",
     "static/media/youtube.svg": "/vincitfx_webapp/static/media/youtube.d9ac58a0106d8cba626d8af91ff5a3d6.svg",
     "static/media/email.svg": "/vincitfx_webapp/static/media/email.763f53d2236d69ff944b2f2b9382475e.svg",
     "static/media/facebook.svg": "/vincitfx_webapp/static/media/facebook.df5495af1c954c5537a5b97b0b521f80.svg",
@@ -33,16 +33,17 @@
     "static/media/backarrowimgblack.svg": "/vincitfx_webapp/static/media/backarrowimgblack.53088b2d71330ac805f9c76b034a220b.svg",
     "static/media/backarrowimgwhite.svg": "/vincitfx_webapp/static/media/backarrowimgwhite.3a75514ccdb76e829a224b5fa46d37c8.svg",
     "static/media/contactchatimg.svg": "/vincitfx_webapp/static/media/contactchatimg.6f1a98e8dfdf30d6d97162881e1e95bf.svg",
+    "static/media/myprofileiconimg.svg": "/vincitfx_webapp/static/media/myprofileiconimg.1ebb401004863a7594c83c0a069e95d0.svg",
     "static/media/twitter.svg": "/vincitfx_webapp/static/media/twitter.e26f6570c3054e35940c1f019051153e.svg",
     "static/media/tickimg.svg": "/vincitfx_webapp/static/media/tickimg.1c22e7f7ce0f7d2a14e5281bd8bcc262.svg",
     "static/media/leftarrowimg.svg": "/vincitfx_webapp/static/media/leftarrowimg.bbf278e92cf13b12956c1cbc8380b210.svg",
     "static/media/downarrowimg.svg": "/vincitfx_webapp/static/media/downarrowimg.cc8a3ebebbf5f1e9a251df8d1b5babf6.svg",
-    "main.f354af64.css.map": "/vincitfx_webapp/static/css/main.f354af64.css.map",
-    "main.4b366a7e.js.map": "/vincitfx_webapp/static/js/main.4b366a7e.js.map",
+    "main.8c3d6321.css.map": "/vincitfx_webapp/static/css/main.8c3d6321.css.map",
+    "main.1216fa27.js.map": "/vincitfx_webapp/static/js/main.1216fa27.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f354af64.css",
-    "static/js/main.4b366a7e.js"
+    "static/css/main.8c3d6321.css",
+    "static/js/main.1216fa27.js"
   ]
 }
