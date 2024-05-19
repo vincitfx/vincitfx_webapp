@@ -2,7 +2,15 @@ import React, { Component } from 'react';
 
 class AllAPIs extends Component {
 
-    webapiUrl = 'https://localhost:7156/api/';
+    webapiUrl = 'https://vincitfx-web-api-a2d39a85e841.herokuapp.com/api/';
+
+    sendRecoveryPassoword = (email) => {
+        const response = fetch( this.webapiUrl + 'account/sendemail/' + email, {
+            method: 'GET'
+        });
+
+        return response;
+    }
 
     canLogin = (logindata) => {
         const response = fetch( this.webapiUrl + 'account/login', {

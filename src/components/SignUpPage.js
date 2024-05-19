@@ -191,7 +191,7 @@ function SignUpPage()
                     }
                   return response.json()
                 }).then(data => {
-                  clientGuid = data.Guid;
+                  clientGuid = data.ClientGuid;
                   navigate(`/dashboard/${clientGuid}`)
                 });
               } catch (error) {

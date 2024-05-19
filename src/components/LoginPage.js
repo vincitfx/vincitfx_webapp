@@ -43,7 +43,6 @@ function LoginPage()
 
     const submit = async () => {
         const AllAPIsIns = new AllAPIs();
-        var canLoginKey = false;
         var clientGuid = "";
         try {
             var response = await AllAPIsIns.canLogin(loginData).then(response => {
@@ -52,15 +51,8 @@ function LoginPage()
                 }
               return response.json()
             }).then(data => {
-              canLoginKey = data.CanLogin
               clientGuid = data.ClientGuid;
-              if(canLoginKey){
                 navigate(`/dashboard/${clientGuid}`)
-              }
-              else{
-                return;
-              }
-              
             });
           } catch (error) {
             console.error('Fetch error:', error);

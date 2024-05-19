@@ -10,6 +10,7 @@ import backarrowimgblack from '../images/backarrowimgblack.svg';
 import backarrowimgwhite from '../images/backarrowimgwhite.svg';
 import { useState } from 'react';
 import AllAPIs from './AllAPIs';
+import Swal from 'sweetalert2'
  
 function ForgotPasswordPage()
 {
@@ -29,6 +30,27 @@ function ForgotPasswordPage()
         setEmail(event.target.value);
     }
 
+    const submit = async () => {
+        const AllAPIsIns = new AllAPIs();
+        var isEmailSent = false;
+        try {
+            var response = await AllAPIsIns.sendRecoveryPassoword(email).then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                  }
+                return response.json();
+            }).then(data => {
+                isEmailSent = data.IsEmailSent
+                if(isEmailSent){
+                    Swal.fire("Password has been sent to your email.");
+                }
+
+            });
+        } catch(error) {
+            console.error('Fetch error:', error);
+        }
+    }
+
     return(
         <div className="login-main-div">
             <div className="login-div-1">
@@ -39,7 +61,7 @@ function ForgotPasswordPage()
                 </p>
                 <p className='forgot-recieve'>Please enter your email address below to receive instructions for resetting password.</p>
                 <input id='forgot-textarea-1' className="forgot-textarea" value={email} onChange={onEmailChange} maxLength={50} placeholder="Email" ></input>
-                <button className='forgot-btn-1'>Reset password</button>
+                <button className='forgot-btn-1' onClick={submit}>Reset password</button>
                 <p className='forgot-p-2'>Know your password? <a onClick={() => goToLoginPage()} style={{color:"#FF914D", textDecoration: "none", cursor:"pointer"}}>Login</a> </p>
             </div>
             <div className="login-div-2">
