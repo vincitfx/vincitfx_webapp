@@ -118,28 +118,49 @@
 
 @media only screen and (max-width: 800px) {
     .side-main-div {
-         width: 90%;
-         height: calc(70% - 100px);
+         width: 289px;
+         height: 483px;
     }
 
     .side-account {
         left: 17px;
+        width: 250px;
+        height: 53px;
     }
 
     .side-deposit {
         left: 17px;
+        width: 250px;
+        height: 53px;
     }
 
     .side-withdraw {
         left: 17px;
+        width: 250px;
+        height: 53px;
     }
 
     .side-transaction {
         left: 17px;
+        width: 250px;
+        height: 53px;
     }
 
     .side-portfolio {
         left: 17px;
+        width: 250px;
+        height: 53px;
+    }
+    .iconimg {
+        top: 14px;
+        left: 12px;
+        width: 25px;
+    }
+
+    .side-text {
+        top: 14px;
+        left: 57px;
+        font-size: 17px;
     }
 
 }
