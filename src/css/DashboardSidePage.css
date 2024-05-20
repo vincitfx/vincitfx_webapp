@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    color : black
+}
+
+.side-main-div {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 400px;
+    height: calc(100% - 100px);
+    background-color: white;
+    border-top: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconimg {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+}
+
+.side-text {
+    position: absolute;
+    top: 14px;
+    left: 65px;
+    font-size: 20px;
+}
+
+.side-account {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 320px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+
+}
+
+.side-account:hover {
+    background-color: #DCF1F0;
+    border: 1px solid #49BEB7;
+}
+
+.side-deposit:hover {
+    background-color: #DCF1F0;
+    border: 1px solid #49BEB7;
+}
+
+.side-withdraw:hover {
+    background-color: #DCF1F0;
+    border: 1px solid #49BEB7;
+}
+
+.side-transaction:hover {
+    background-color: #DCF1F0;
+    border: 1px solid #49BEB7;
+}
+
+.side-portfolio:hover {
+    background-color: #DCF1F0;
+    border: 1px solid #49BEB7;
+}
+
+.side-deposit {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    width: 320px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+}
+
+.side-withdraw {
+    position: absolute;
+    top: 210px;
+    left: 40px;
+    width: 320px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+}
+
+.side-transaction {
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    width: 320px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+}
+
+.side-portfolio {
+    position: absolute;
+    top: 370px;
+    left: 40px;
+    width: 320px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+    .side-main-div {
+         width: 90%;
+         height: calc(70% - 100px);
+    }
+
+    .side-account {
+        left: 17px;
+    }
+
+    .side-deposit {
+        left: 17px;
+    }
+
+    .side-withdraw {
+        left: 17px;
+    }
+
+    .side-transaction {
+        left: 17px;
+    }
+
+    .side-portfolio {
+        left: 17px;
+    }
+
+}

@@ -10,6 +10,11 @@ import HomePage from './components/HomePage';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import DashboardPage from './components/DashboardPage';
 import ForgotPasswordPage from './components/ForgotPasswordPage';
+import MyProfilePage from './components/MyProfilePage';
+import DepositPage from './components/DepositPage';
+import WithdrawPage from './components/WithdrawPage';
+import TransactionHistoryPage from './components/TransactionHistoryPage';
+import PortfolioManagementPage from './components/PortfolioManagementPage';
 function App() {
   return (
     <div>
@@ -25,8 +30,13 @@ function App() {
             <Route path="/accounttypes" element={<AccountTypesPage />} ></Route>
             <Route path="/funding" element={<FundingPage />} ></Route>
             <Route path="/creditbonus" element={<CreditBonusPage />} ></Route>
-            <Route path="/dashboard/:clientGuid" element={<DashboardPage />} ></Route>
+            <Route path="/dashboard" element={<DashboardPage />} ></Route>
             <Route path="/forgotpassword" element={<ForgotPasswordPage />} ></Route>
+            <Route path="/myprofile" element={<MyProfilePage />} ></Route>
+            <Route path="/deposit" element={<DepositPage />} ></Route>
+            <Route path="/withdraw" element={<WithdrawPage />} ></Route>
+            <Route path="/transactionhistory" element={<TransactionHistoryPage />} ></Route>
+            <Route path="/portfoliomanagement" element={<PortfolioManagementPage />} ></Route>
           </Routes>
       </Router>
     </div>

@@ -1,3 +1,7 @@
+:root {
+    --showNavigation : block
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,22 +15,100 @@
 }
 
 .myprofileicon {
+    position: absolute;
+    top: 7px;
+    left: 28px;
     width: 40px;
 }
 
-.myprofile-div {
+.settings-div {
     display: flex;
     flex-direction: row;
+    width: 190px;
+    height: 54px;
 }
 
-.myprofile-text {
-    position: relative;
-    top: 10px;
-    left: 10px;
+.dash-p-1 {
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    font-weight: 400;
+}
+
+.dash-p-2 {
+    position: absolute;
+    top: 22px;
+    left: 80px;
+    color: #696969;
+    font-weight: 400;
 }
 
 .myprofile-btn {
+    position: absolute;
+    top: 25px;
+    right: 150px;
+    left: auto;
     background-color: white;
-    border: none;
-    width: 80px;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+}
+
+.myprofile-btn:hover {
+    background-color: #DCF1F0;
+    border: 1px solid #49BEB7;
+}
+
+.logouticon {
+    position: absolute;
+    top: 37px;
+    right: 75px;
+    left: auto;
+    width: 30px;
+    cursor: pointer;
+}
+
+.menuicon {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .dash-p-1 {
+        display: none;
+    }
+
+    .dash-p-2 {
+        display: none;
+    }
+
+    .settings-div{
+        width: 54px;
+        height: 40px
+    }
+    .logouticon {
+        top: 31px;
+        right: 30px;
+    }
+
+    .myprofileicon {
+        left: 11px;
+        top: 3px;
+        width: 32px;
+    }
+
+    .myprofile-btn {
+        right: 100px;
+    }
+
+    .menuicon {
+        display: block;
+        width: 30px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        right: auto;
+    }
+
+    .side-main-div {
+        display: var(--showNavigation);
+    }
 }

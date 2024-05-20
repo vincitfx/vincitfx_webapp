@@ -191,8 +191,15 @@ function SignUpPage()
                     }
                   return response.json()
                 }).then(data => {
-                  clientGuid = data.ClientGuid;
-                  navigate(`/dashboard/${clientGuid}`)
+                  console.log(data)
+                  localStorage.setItem("clientguid", data.clientguid)
+                  localStorage.setItem("createddate", data.createddate)
+                  localStorage.setItem("email", data.email)
+                  localStorage.setItem("firstname", data.firstname)
+                  localStorage.setItem("id", data.id)
+                  localStorage.setItem("lastname", data.lastname)
+                  localStorage.setItem("phonenumber", data.phonenumber)
+                  navigate(`/dashboard`)
                 });
               } catch (error) {
                 console.error('Fetch error:', error);

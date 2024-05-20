@@ -10,7 +10,7 @@ import backarrowimgblack from '../images/backarrowimgblack.svg';
 import backarrowimgwhite from '../images/backarrowimgwhite.svg';
 import { useState } from 'react';
 import AllAPIs from './AllAPIs';
- 
+
 function LoginPage()
 {
 
@@ -43,7 +43,6 @@ function LoginPage()
 
     const submit = async () => {
         const AllAPIsIns = new AllAPIs();
-        var clientGuid = "";
         try {
             var response = await AllAPIsIns.canLogin(loginData).then(response => {
               if (!response.ok) {
@@ -51,9 +50,15 @@ function LoginPage()
                 }
               return response.json()
             }).then(data => {
-              clientGuid = data.ClientGuid;
-              localStorage.setItem("clientData", clientGuid)
-                navigate(`/dashboard/${clientGuid}`)
+              console.log(data)
+              localStorage.setItem("clientguid", data.clientguid)
+              localStorage.setItem("createddate", data.createddate)
+              localStorage.setItem("email", data.email)
+              localStorage.setItem("firstname", data.firstname)
+              localStorage.setItem("id", data.id)
+              localStorage.setItem("lastname", data.lastname)
+              localStorage.setItem("phonenumber", data.phonenumber)
+              navigate(`/dashboard`)
             });
           } catch (error) {
             console.error('Fetch error:', error);
