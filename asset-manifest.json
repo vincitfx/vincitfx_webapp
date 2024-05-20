@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vincitfx_webapp/static/css/main.1fc572fc.css",
+    "main.css": "/vincitfx_webapp/static/css/main.bf559e63.css",
     "main.js": "/vincitfx_webapp/static/js/main.170a2103.js",
     "static/js/453.4bf78ab2.chunk.js": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js",
     "static/media/instrumentimg.png": "/vincitfx_webapp/static/media/instrumentimg.18e69aade9dca223a6a4.png",
@@ -45,12 +45,12 @@
     "static/media/tickimg.svg": "/vincitfx_webapp/static/media/tickimg.1c22e7f7ce0f7d2a14e5281bd8bcc262.svg",
     "static/media/leftarrowimg.svg": "/vincitfx_webapp/static/media/leftarrowimg.bbf278e92cf13b12956c1cbc8380b210.svg",
     "static/media/downarrowimg.svg": "/vincitfx_webapp/static/media/downarrowimg.cc8a3ebebbf5f1e9a251df8d1b5babf6.svg",
-    "main.1fc572fc.css.map": "/vincitfx_webapp/static/css/main.1fc572fc.css.map",
+    "main.bf559e63.css.map": "/vincitfx_webapp/static/css/main.bf559e63.css.map",
     "main.170a2103.js.map": "/vincitfx_webapp/static/js/main.170a2103.js.map",
     "453.4bf78ab2.chunk.js.map": "/vincitfx_webapp/static/js/453.4bf78ab2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fc572fc.css",
+    "static/css/main.bf559e63.css",
     "static/js/main.170a2103.js"
   ]
 }
